@@ -1,12 +1,60 @@
 {
  "schema": 1,
- "versionCode": 62,
- "versionName": "1.0.62",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-62/BONKTOOLS.apk",
- "sha256": "b623e77c854fabccf5dffa75ba491a26a1fa835aa2f2d125846ca3558bcdf6ee",
- "size": 25382116,
- "published": "2026-11-24T04:33:35Z",
+ "versionCode": 64,
+ "versionName": "1.0.64",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-64/BONKTOOLS.apk",
+ "sha256": "5292acf8037afd036a45b01a10c53cade67144cf47048ee60fe208cbe5dc8c6f",
+ "size": 25402848,
+ "published": "2026-11-24T06:12:47Z",
  "changelog": [
+  {
+   "id": "2026-11-24-ingame-check",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "ตรวจว่าอยู่ในเกมแม่นขึ้น: ระบุตัวแอปจากโปรเซสที่รันอยู่จริงทุกรอบ แก้ปัญหาโคลนที่ลบแล้วสร้างใหม่ถูกมองว่าไม่ได้อยู่ในเกมแล้วโดนรีจอยน์วนซ้ำ",
+     "นับการเชื่อมต่อกับเครือข่ายของ Roblox เองด้วย (เซิร์ฟเวอร์ relay) ไม่ใช่แค่พอร์ต 49152-65535",
+     "ใหม่: ตั้งค่า > วิธีตรวจว่าหลุด > \"ดูสิ่งที่ระบบตรวจเจอ\" เห็นทีละบัญชีว่าเชื่อมต่อเซิร์ฟเวอร์เกมอยู่ไหม คัดลอกส่งให้ผู้พัฒนาได้ และอยู่ในรายงานปัญหาด้วย",
+     "แท็บคลาวด์มีปุ่ม \"เปิดทุกเครื่องเป็นหน้าต่างลอย\" ให้เห็นชัด หน้าต่างลอยของแอปไม่จำกัดจำนวนเหมือนของ Xiaomi"
+    ],
+    "en": [
+     "More accurate in-game check: the app is identified from its running process every round, fixing clones that were deleted and recreated being seen as out of game and rejoined over and over",
+     "Connections to Roblox's own networks (relay servers) now count too, not only ports 49152-65535",
+     "New: Settings > How drops are detected > \"See what the checks see\" shows per account whether it is connected to a game server; can be copied for the developer and is in problem reports",
+     "The Cloud tab has a clear \"Open every machine as a floating window\" button. The app's floating windows have no limit like Xiaomi's"
+    ],
+    "zh": [
+     "更准确的游戏内检测：每轮都从正在运行的进程识别应用，修复删除后重建的克隆被误判为不在游戏中而反复重连的问题",
+     "连接到 Roblox 自有网络（中继服务器）也会计入，不再只看 49152-65535 端口",
+     "新增：设置 > 掉线检测方式 > “查看检测到的内容”，逐个账号显示是否连接游戏服务器，可复制给开发者，也包含在问题报告中",
+     "云端标签页有明显的“将所有机器打开为悬浮窗”按钮。应用自己的悬浮窗不像小米那样有数量限制"
+    ],
+    "id": [
+     "Cek dalam game lebih akurat: aplikasi dikenali dari proses yang berjalan setiap putaran, memperbaiki klon yang dihapus lalu dibuat ulang dianggap tidak di game dan di-rejoin terus",
+     "Koneksi ke jaringan milik Roblox (server relay) kini ikut dihitung, bukan hanya port 49152-65535",
+     "Baru: Pengaturan > Cara deteksi putus > \"Lihat yang terlihat oleh pengecekan\" menampilkan tiap akun terhubung ke server game atau tidak; bisa disalin untuk pengembang dan ada di laporan masalah",
+     "Tab Cloud punya tombol \"Buka semua mesin sebagai jendela mengambang\" yang jelas. Jendela mengambang aplikasi tidak dibatasi seperti milik Xiaomi"
+    ],
+    "vi": [
+     "Kiểm tra trong game chính xác hơn: nhận diện ứng dụng từ tiến trình đang chạy mỗi vòng, sửa lỗi bản sao bị xóa rồi tạo lại bị coi là không trong game và bị vào lại liên tục",
+     "Kết nối tới mạng riêng của Roblox (máy chủ relay) cũng được tính, không chỉ cổng 49152-65535",
+     "Mới: Cài đặt > Cách phát hiện rớt > \"Xem những gì hệ thống thấy\" cho biết từng tài khoản có kết nối máy chủ game không; sao chép gửi nhà phát triển được và có trong báo cáo lỗi",
+     "Tab Đám mây có nút \"Mở mọi máy thành cửa sổ nổi\" rõ ràng. Cửa sổ nổi của ứng dụng không bị giới hạn như của Xiaomi"
+    ],
+    "lo": [
+     "ກວດວ່າຢູ່ໃນເກມແມ່ນຂຶ້ນ: ລະບຸໂຕແອັບຈາກໂປຣເຊສທີ່ແລ່ນຢູ່ແທ້ທຸກຮອບ ແກ້ບັນຫາໂຄລນທີ່ລຶບແລ້ວສ້າງໃໝ່ຖືກມອງວ່າບໍ່ໄດ້ຢູ່ໃນເກມແລ້ວໂດນຣີຈອຍວົນຊ້ຳ",
+     "ນັບການເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍຂອງ Roblox ເອງດ້ວຍ (ເຊີບເວີ relay) ບໍ່ແມ່ນແຕ່ພອດ 49152-65535",
+     "ໃໝ່: ຕັ້ງຄ່າ > ວິທີກວດວ່າຫຼຸດ > \"ເບິ່ງສິ່ງທີ່ລະບົບກວດເຫັນ\" ເຫັນແຕ່ລະບັນຊີວ່າເຊື່ອມຕໍ່ເຊີບເວີເກມຢູ່ບໍ່ ສຳເນົາສົ່ງໃຫ້ຜູ້ພັດທະນາໄດ້ ແລະ ຢູ່ໃນລາຍງານບັນຫາດ້ວຍ",
+     "ແທັບຄລາວມີປຸ່ມ \"ເປີດທຸກເຄື່ອງເປັນໜ້າຕ່າງລອຍ\" ໃຫ້ເຫັນຊັດ ໜ້າຕ່າງລອຍຂອງແອັບບໍ່ຈຳກັດຈຳນວນຄືຂອງ Xiaomi"
+    ],
+    "my": [
+     "ဂိမ်းထဲရှိမရှိ ပိုတိကျစွာ စစ်သည်: အဝိုင်းတိုင်း run နေသော process မှ app ကို ခွဲခြားပြီး ဖျက်ပြီးပြန်လုပ်ထားသော clone ကို ဂိမ်းထဲမရှိဟု ထင်၍ rejoin ထပ်ခါထပ်ခါ လုပ်ခြင်းကို ပြင်သည်",
+     "Roblox ၏ ကိုယ်ပိုင်ကွန်ရက် (relay server) နှင့် ချိတ်ဆက်မှုကိုလည်း ရေတွက်သည်၊ port 49152-65535 သာ မဟုတ်တော့ပါ",
+     "အသစ်: Settings > ပြတ်တာကို စစ်ပုံ > \"စစ်ဆေးမှုက မြင်ရသည်ကို ကြည့်မည်\" တွင် အကောင့်တစ်ခုချင်း game server နှင့် ချိတ်ထားသလား ပြသည်၊ developer ထံ ကူးပို့နိုင်ပြီး ပြဿနာအစီရင်ခံစာတွင်လည်း ပါသည်",
+     "Cloud tab တွင် \"စက်အားလုံးကို floating window အဖြစ် ဖွင့်ရန်\" ခလုတ် ရှင်းရှင်းလင်းလင်း ရှိသည်။ app ၏ floating window သည် Xiaomi ကဲ့သို့ အရေအတွက် မကန့်သတ်ပါ"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-update-fresh",
    "date": "2026-11-24",
@@ -380,47 +428,6 @@
      "window တစ်ခုချင်း စာရိုက်၊ အသံပိတ်၊ FPS သတ်မှတ်နိုင်ပြီး rejoin ပြီးလည်း နေရာမပြောင်း",
      "ပထမဆုံး သတ်မှတ်ခြင်းကို အဆင့်လိုက်၊ အသိပေးချက်ကို အရင်တောင်းသည်",
      "အက်ပ်စကင်န်တွင် တိုးတက်မှုဘားနှင့် ဘာစစ်နေသည်ကို ပြသည်"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-21-tools",
-   "date": "2026-11-21",
-   "notes": {
-    "th": [
-     "แท็บ Tools: Clone, Auto Clone, Auto Update, Auto Delete, Export/Import Clone Zip, Install File",
-     "Account Manager สลับบัญชี Roblox ได้ในไม่กี่วินาที (ต้องใช้ Root)",
-     "หน้าตั้งค่าแบ่งเป็นหมวดหมู่"
-    ],
-    "en": [
-     "Tools tab: Clone, Auto Clone, Auto Update, Auto Delete, Export/Import Clone Zip, Install File",
-     "Account Manager switches Roblox accounts in seconds (needs Root)",
-     "Settings split into categories"
-    ],
-    "zh": [
-     "Tools 标签：Clone、Auto Clone、Auto Update、Auto Delete、导出/导入 Clone Zip、安装文件",
-     "Account Manager 几秒切换 Roblox 账号（需要 Root）",
-     "设置分为多个类别"
-    ],
-    "id": [
-     "Tab Tools: Clone, Auto Clone, Auto Update, Auto Delete, Ekspor/Impor Clone Zip, Pasang File",
-     "Account Manager berganti akun Roblox dalam hitungan detik (butuh Root)",
-     "Pengaturan dibagi per kategori"
-    ],
-    "vi": [
-     "Tab Tools: Clone, Auto Clone, Auto Update, Auto Delete, Xuất/Nhập Clone Zip, Cài tệp",
-     "Account Manager đổi tài khoản Roblox trong vài giây (cần Root)",
-     "Cài đặt chia theo danh mục"
-    ],
-    "lo": [
-     "ແຖບ Tools: Clone, Auto Clone, Auto Update, Auto Delete, Export/Import Clone Zip, Install File",
-     "Account Manager ສະຫຼັບບັນຊີ Roblox ໄດ້ໃນບໍ່ເທົ່າໃດວິນາທີ (ຕ້ອງໃຊ້ Root)",
-     "ໜ້າຕັ້ງຄ່າແບ່ງເປັນໝວດໝູ່"
-    ],
-    "my": [
-     "Tools တက်ဘ် - Clone, Auto Clone, Auto Update, Auto Delete, Clone Zip ထုတ်/သွင်း, ဖိုင်ထည့်သွင်း",
-     "Account Manager ဖြင့် Roblox အကောင့်ကို စက္ကန့်ပိုင်းအတွင်း ပြောင်းနိုင်သည် (Root လိုသည်)",
-     "ဆက်တင်များကို အမျိုးအစားလိုက် ခွဲထားသည်"
     ]
    }
   }
