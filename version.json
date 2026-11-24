@@ -1,12 +1,53 @@
 {
  "schema": 1,
- "versionCode": 71,
- "versionName": "1.0.71",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-71/BONKTOOLS.apk",
- "sha256": "70e2de060b7e1fb24769f29f3ae8fb5b43cfd45c79ffe93440653be920d854d6",
- "size": 25409328,
- "published": "2026-11-24T09:41:37Z",
+ "versionCode": 72,
+ "versionName": "1.0.72",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-72/BONKTOOLS.apk",
+ "sha256": "c0e777c439f5abeb152dae80897252b85ae4bb9de8e1f8ddea022fa110b08fe2",
+ "size": 25427532,
+ "published": "2026-11-24T10:09:15Z",
  "changelog": [
+  {
+   "id": "2026-11-24-float-bottom",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "หน้าต่างลอยลากลงครึ่งล่างของจอได้แล้ว ลากให้ล้นขอบล่าง ซ้าย หรือขวาออกไปได้ (เหลือแถบชื่อไว้ให้จับลากกลับ) หน้าต่างอ่านขนาดจอจากตัวระบบโดยตรง ไม่ใช้ค่าที่แอปจำไว้ซึ่งอาจเป็นค่าตอนจอแนวนอน",
+     "ปุ่มบนแถบชื่อหน้าต่างลากย้ายหน้าต่างได้ด้วย แตะเพื่อกดปุ่มเหมือนเดิม และพอเปิดพิมพ์ข้อความ หน้าต่างที่ล้นขอบล่างจะขยับขึ้นมาให้เห็นช่องพิมพ์",
+     "รายงานปัญหามีหัวข้อ \"Floating windows\" บอกขนาดจอที่ใช้และตำแหน่งจริงของแต่ละหน้าต่าง"
+    ],
+    "en": [
+     "Floating windows can now be dragged into the bottom half of the screen, and hang off the bottom, left or right edge (the title bar stays on screen to grab). Windows read the screen size from the system itself, not from the app's remembered value, which could still be the landscape one",
+     "The buttons on a window's title bar move the window when dragged and still press when tapped. Turning on typing lifts a window that hangs off the bottom so the text box shows",
+     "The problem report has a \"Floating windows\" part: the screen size used and where each window really is"
+    ],
+    "zh": [
+     "悬浮窗现在可以拖到屏幕下半部分，也可以超出下、左、右边缘（标题栏留在屏幕内方便拖回）。窗口直接从系统读取屏幕尺寸，不再用应用记住的值（那可能还是横屏时的值）",
+     "窗口标题栏上的按钮拖动时可移动窗口，点按仍是按钮。打开输入时，超出下边缘的窗口会上移以显示输入框",
+     "问题报告新增“Floating windows”部分：所用的屏幕尺寸和每个窗口的实际位置"
+    ],
+    "id": [
+     "Jendela mengambang kini bisa diseret ke separuh bawah layar, dan keluar dari tepi bawah, kiri atau kanan (bilah judul tetap di layar untuk diseret). Jendela membaca ukuran layar langsung dari sistem, bukan nilai yang diingat aplikasi yang bisa saja masih ukuran lanskap",
+     "Tombol di bilah judul jendela ikut memindahkan jendela saat diseret dan tetap berfungsi saat diketuk. Saat mengetik diaktifkan, jendela yang keluar dari tepi bawah naik agar kotak teks terlihat",
+     "Laporan masalah punya bagian \"Floating windows\": ukuran layar yang dipakai dan posisi sebenarnya tiap jendela"
+    ],
+    "vi": [
+     "Cửa sổ nổi giờ kéo được xuống nửa dưới màn hình, và tràn ra ngoài cạnh dưới, trái hoặc phải (thanh tiêu đề vẫn nằm trên màn hình để kéo lại). Cửa sổ đọc kích thước màn hình trực tiếp từ hệ thống, không dùng giá trị ứng dụng nhớ vốn có thể vẫn là kích thước ngang",
+     "Các nút trên thanh tiêu đề cũng di chuyển cửa sổ khi kéo và vẫn bấm được khi chạm. Khi bật gõ chữ, cửa sổ tràn cạnh dưới sẽ được đưa lên để thấy ô nhập",
+     "Báo cáo sự cố có mục \"Floating windows\": kích thước màn hình đang dùng và vị trí thật của từng cửa sổ"
+    ],
+    "lo": [
+     "ໜ້າຕ່າງລອຍລາກລົງເຄິ່ງລຸ່ມຂອງຈໍໄດ້ແລ້ວ ລາກໃຫ້ລົ້ນຂອບລຸ່ມ ຊ້າຍ ຫຼື ຂວາອອກໄປໄດ້ (ເຫຼືອແຖບຊື່ໄວ້ໃຫ້ຈັບລາກກັບ) ໜ້າຕ່າງອ່ານຂະໜາດຈໍຈາກລະບົບໂດຍກົງ ບໍ່ໃຊ້ຄ່າທີ່ແອັບຈື່ໄວ້ ເຊິ່ງອາດເປັນຄ່າຕອນຈໍແນວນອນ",
+     "ປຸ່ມເທິງແຖບຊື່ໜ້າຕ່າງລາກຍ້າຍໜ້າຕ່າງໄດ້ນຳ ແຕະເພື່ອກົດປຸ່ມຄືເກົ່າ ແລະ ເມື່ອເປີດພິມຂໍ້ຄວາມ ໜ້າຕ່າງທີ່ລົ້ນຂອບລຸ່ມຈະຂະຫຍັບຂຶ້ນມາໃຫ້ເຫັນຊ່ອງພິມ",
+     "ລາຍງານບັນຫາມີຫົວຂໍ້ \"Floating windows\" ບອກຂະໜາດຈໍທີ່ໃຊ້ ແລະ ຕຳແໜ່ງແທ້ຂອງແຕ່ລະໜ້າຕ່າງ"
+    ],
+    "my": [
+     "Floating window များကို မျက်နှာပြင်၏ အောက်တစ်ဝက်သို့ ဆွဲချနိုင်ပြီ၊ အောက်၊ ဘယ်၊ ညာ အစွန်းကျော်၍လည်း ထားနိုင်သည် (ပြန်ဆွဲရန် ခေါင်းစဉ်ဘားကို မျက်နှာပြင်ပေါ်တွင် ချန်ထားသည်)။ Window များသည် မျက်နှာပြင်အရွယ်အစားကို စနစ်ထံမှ တိုက်ရိုက်ဖတ်သည်၊ အလျားလိုက်အချိန်က တန်ဖိုး ဖြစ်နေနိုင်သော app မှတ်ထားသည့်တန်ဖိုးကို မသုံးတော့ပါ",
+     "Window ခေါင်းစဉ်ဘားပေါ်ရှိ ခလုတ်များကို ဆွဲလျှင် window ရွေ့သည်၊ နှိပ်လျှင် ခလုတ်အဖြစ် အလုပ်လုပ်ဆဲ။ စာရိုက်ခြင်း ဖွင့်သည့်အခါ အောက်အစွန်းကျော်နေသော window ကို စာရိုက်ကွက် မြင်ရအောင် အပေါ်သို့ ရွှေ့ပေးသည်",
+     "ပြဿနာအစီရင်ခံစာတွင် \"Floating windows\" အပိုင်း ပါပြီ: အသုံးပြုသည့် မျက်နှာပြင်အရွယ်အစားနှင့် window တစ်ခုချင်း၏ တကယ့်တည်နေရာ"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-play-traffic",
    "date": "2026-11-24",
@@ -324,33 +365,6 @@
     ],
     "my": [
      "အဓိကခလုတ်၊ switch နှင့် checkbox များတွင် မျက်စိမကျိန်းစေသော ပျော့ပျောင်းသည့်အရောင် သုံးသည်၊ အစိမ်းတောက်ကို စာသားနှင့် အခြေအနေအစက်တွင် ဆက်သုံးသည်"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-24-update-test",
-   "date": "2026-11-24",
-   "notes": {
-    "th": [
-     "ทดสอบระบบอัปเดตในแอป เวอร์ชันนี้ไม่มีการเปลี่ยนแปลงอื่น"
-    ],
-    "en": [
-     "Testing in-app updates; nothing else changed in this version"
-    ],
-    "zh": [
-     "测试应用内更新，此版本无其他改动"
-    ],
-    "id": [
-     "Menguji pembaruan dalam aplikasi; tidak ada perubahan lain di versi ini"
-    ],
-    "vi": [
-     "Thử nghiệm cập nhật trong ứng dụng; phiên bản này không có thay đổi nào khác"
-    ],
-    "lo": [
-     "ທົດສອບລະບົບອັບເດດໃນແອັບ ເວີຊັນນີ້ບໍ່ມີການປ່ຽນແປງອື່ນ"
-    ],
-    "my": [
-     "app ထဲမှ အပ်ဒိတ်စနစ်ကို စမ်းသပ်ခြင်း၊ ဤဗားရှင်းတွင် အခြားပြောင်းလဲမှု မရှိပါ"
     ]
    }
   }
