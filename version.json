@@ -1,12 +1,46 @@
 {
  "schema": 1,
- "versionCode": 61,
- "versionName": "1.0.61",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-61/BONKTOOLS.apk",
- "sha256": "532835deb3f20b1b766c3a64b0c9b7ba11ee070fd8de7d7bc22919aed045c906",
- "size": 25381284,
- "published": "2026-11-24T04:00:19Z",
+ "versionCode": 62,
+ "versionName": "1.0.62",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-62/BONKTOOLS.apk",
+ "sha256": "b623e77c854fabccf5dffa75ba491a26a1fa835aa2f2d125846ca3558bcdf6ee",
+ "size": 25382116,
+ "published": "2026-11-24T04:33:35Z",
  "changelog": [
+  {
+   "id": "2026-11-24-update-fresh",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "กดอัปเดตแล้วจะได้เวอร์ชันล่าสุดเสมอ ไม่ใช่เวอร์ชันที่เช็กไว้เมื่อหลายชั่วโมงก่อน และเปิดแอปจะเช็กใหม่ทุก 15 นาที",
+     "หน้าต่างอัปเดตบอกวิธีติดตั้งถูกต้องตามสิทธิ์ที่เชื่อมอยู่ตอนนั้น"
+    ],
+    "en": [
+     "Tapping Update always gets the newest version, not the one found hours earlier, and opening the app checks again after 15 minutes",
+     "The update window shows the right install method for the access that is connected at the time"
+    ],
+    "zh": [
+     "点击更新时总是获取最新版本，而不是几小时前查到的版本；打开应用时每 15 分钟重新检查",
+     "更新窗口会根据当前连接的权限显示正确的安装方式"
+    ],
+    "id": [
+     "Mengetuk Perbarui selalu mendapat versi terbaru, bukan versi yang ditemukan berjam-jam sebelumnya; membuka aplikasi cek ulang setelah 15 menit",
+     "Jendela pembaruan menampilkan cara pemasangan yang benar sesuai akses yang terhubung saat itu"
+    ],
+    "vi": [
+     "Nhấn Cập nhật luôn lấy bản mới nhất, không phải bản đã thấy từ mấy giờ trước; mở ứng dụng sẽ kiểm tra lại sau 15 phút",
+     "Cửa sổ cập nhật hiện đúng cách cài theo quyền đang kết nối lúc đó"
+    ],
+    "lo": [
+     "ກົດອັບເດດແລ້ວຈະໄດ້ເວີຊັນລ່າສຸດສະເໝີ ບໍ່ແມ່ນເວີຊັນທີ່ກວດໄວ້ເມື່ອຫຼາຍຊົ່ວໂມງກ່ອນ ແລະ ເປີດແອັບຈະກວດໃໝ່ທຸກ 15 ນາທີ",
+     "ໜ້າຕ່າງອັບເດດບອກວິທີຕິດຕັ້ງຖືກຕ້ອງຕາມສິດທີ່ເຊື່ອມຢູ່ຕອນນັ້ນ"
+    ],
+    "my": [
+     "Update နှိပ်လျှင် နာရီများစွာ အရင်က တွေ့ခဲ့သော ဗားရှင်းမဟုတ်ဘဲ နောက်ဆုံးဗားရှင်းကို အမြဲရမည်၊ app ဖွင့်လျှင် ၁၅ မိနစ်ကြာပြီးနောက် ပြန်စစ်မည်",
+     "အပ်ဒိတ် window သည် ထိုအချိန် ချိတ်ထားသော ခွင့်ပြုချက်အလိုက် ထည့်သွင်းပုံကို မှန်ကန်စွာ ပြသည်"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-softer-buttons",
    "date": "2026-11-24",
