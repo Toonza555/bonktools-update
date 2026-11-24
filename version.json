@@ -1,4 +1,367 @@
 {
  "schema": 1,
- "versionCode": 0
+ "versionCode": 60,
+ "versionName": "1.0.60",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-60/BONKTOOLS.apk",
+ "sha256": "e7191a191a8f4d7902924918daae4fef013f7e0cc0e4349f9a2cad3d93f85471",
+ "size": 25380672,
+ "published": "2026-11-24T03:45:42Z",
+ "changelog": [
+  {
+   "id": "2026-11-24-update-test",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "ทดสอบระบบอัปเดตในแอป เวอร์ชันนี้ไม่มีการเปลี่ยนแปลงอื่น"
+    ],
+    "en": [
+     "Testing in-app updates; nothing else changed in this version"
+    ],
+    "zh": [
+     "测试应用内更新，此版本无其他改动"
+    ],
+    "id": [
+     "Menguji pembaruan dalam aplikasi; tidak ada perubahan lain di versi ini"
+    ],
+    "vi": [
+     "Thử nghiệm cập nhật trong ứng dụng; phiên bản này không có thay đổi nào khác"
+    ],
+    "lo": [
+     "ທົດສອບລະບົບອັບເດດໃນແອັບ ເວີຊັນນີ້ບໍ່ມີການປ່ຽນແປງອື່ນ"
+    ],
+    "my": [
+     "app ထဲမှ အပ်ဒိတ်စနစ်ကို စမ်းသပ်ခြင်း၊ ဤဗားရှင်းတွင် အခြားပြောင်းလဲမှု မရှိပါ"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-24-updater",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "อัปเดตในแอป: แจ้งเมื่อมีเวอร์ชันใหม่ บอกว่าเปลี่ยนอะไร กดปุ่มเดียวดาวน์โหลดและติดตั้งให้ (ผ่าน Shizuku, Root หรือ ADB ไม่ต้องกดยืนยัน)",
+     "ตรวจไฟล์ก่อนติดตั้งทุกครั้ง: ขนาด, SHA-256 และลายเซ็นต้องตรงกับแอปที่ใช้อยู่",
+     "หลังอัปเดตระบบตรวจจะกลับมาทำงานต่อเอง ปิดการเช็กอัตโนมัติได้ที่ ตั้งค่า > เกี่ยวกับ"
+    ],
+    "en": [
+     "In-app updates: tells you when a new version is out and what changed; one button downloads and installs it (through Shizuku, root or ADB, no confirmation needed)",
+     "Every download is checked before installing: size, SHA-256 and the same signature as the installed app",
+     "The watchdog picks up again after an update. Automatic checks can be turned off in Settings > About"
+    ],
+    "zh": [
+     "应用内更新：有新版本时提醒并说明改动，一键下载并安装（通过 Shizuku、Root 或 ADB，无需确认）",
+     "每次安装前都会校验文件：大小、SHA-256 以及与已安装应用相同的签名",
+     "更新后监控会自动继续。可在 设置 > 关于 中关闭自动检查"
+    ],
+    "id": [
+     "Pembaruan dalam aplikasi: memberi tahu saat ada versi baru dan apa yang berubah; satu tombol untuk mengunduh dan memasang (lewat Shizuku, root, atau ADB, tanpa konfirmasi)",
+     "Setiap unduhan diperiksa sebelum dipasang: ukuran, SHA-256, dan tanda tangan yang sama dengan aplikasi terpasang",
+     "Pemantauan lanjut sendiri setelah pembaruan. Cek otomatis bisa dimatikan di Pengaturan > Tentang"
+    ],
+    "vi": [
+     "Cập nhật trong ứng dụng: báo khi có phiên bản mới và thay đổi gì; một nút để tải và cài (qua Shizuku, root hoặc ADB, không cần xác nhận)",
+     "Mỗi file tải về đều được kiểm tra trước khi cài: kích thước, SHA-256 và chữ ký giống ứng dụng đang cài",
+     "Sau khi cập nhật, việc theo dõi tự chạy tiếp. Có thể tắt tự kiểm tra ở Cài đặt > Giới thiệu"
+    ],
+    "lo": [
+     "ອັບເດດໃນແອັບ: ແຈ້ງເມື່ອມີເວີຊັນໃໝ່ ບອກວ່າປ່ຽນຫຍັງ ກົດປຸ່ມດຽວດາວໂຫຼດ ແລະ ຕິດຕັ້ງໃຫ້ (ຜ່ານ Shizuku, Root ຫຼື ADB ບໍ່ຕ້ອງກົດຢືນຢັນ)",
+     "ກວດໄຟລ໌ກ່ອນຕິດຕັ້ງທຸກຄັ້ງ: ຂະໜາດ, SHA-256 ແລະ ລາຍເຊັນຕ້ອງກົງກັບແອັບທີ່ໃຊ້ຢູ່",
+     "ຫຼັງອັບເດດ ລະບົບກວດຈະກັບມາເຮັດວຽກຕໍ່ເອງ ປິດການກວດອັດຕະໂນມັດໄດ້ທີ່ ຕັ້ງຄ່າ > ກ່ຽວກັບ"
+    ],
+    "my": [
+     "app ထဲမှ အပ်ဒိတ်: ဗားရှင်းအသစ်ထွက်လျှင် ဘာပြောင်းလဲလဲ ပြောပြပြီး ခလုတ်တစ်ချက်ဖြင့် ဒေါင်းလုဒ်နှင့် ထည့်သွင်းပေးသည် (Shizuku၊ root သို့မဟုတ် ADB ဖြင့် အတည်ပြုရန်မလို)",
+     "ထည့်သွင်းမီ ဖိုင်ကို အမြဲစစ်သည်: အရွယ်အစား၊ SHA-256 နှင့် ထည့်ထားသော app နှင့် တူညီသော လက်မှတ်",
+     "အပ်ဒိတ်ပြီးနောက် စောင့်ကြည့်မှု ဆက်လုပ်မည်။ အလိုအလျောက်စစ်ခြင်းကို Settings > About တွင် ပိတ်နိုင်သည်"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-24-discord-v2",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "แจ้งเตือน Discord แบบใหม่ (Components V2): การ์ดสีตามความรุนแรง มีโลโก้ เวลาแสดงตามเขตเวลาของผู้อ่าน",
+     "สรุปสถานะทุก 1-24 ชม.: บัญชีในเกม รีจอยน์ เน็ตหลุด อุณหภูมิ แบต แรม และสถานะรายบัญชี",
+     "แนบภาพหน้าจอตอนเจอหน้าต่างหลุด และตอนเข้าเกมไม่ได้ติดกันหรือเปิดไม่สำเร็จ",
+     "แท็กคุณใน Discord เมื่อต้องจัดการเอง: สิทธิ์หลุด Bootstrap เปิดไม่ขึ้น เข้าเกมไม่ได้ติดกัน 3 ครั้ง",
+     "โหมดประหยัดเครื่อง แตะเดียวจากหน้าแรก: จอเสมือน 15 FPS หรี่จอ จอ 60Hz ปิดอนิเมชัน ปิดแล้วคืนค่าเดิมทั้งหมด",
+     "หน้าตาแอป: เลือกสีหลัก 5 สี พื้นหลัง 3 แบบ ขนาดตัวอักษร ลดการเคลื่อนไหว และปิดการสั่นได้"
+    ],
+    "en": [
+     "New Discord notifications (Components V2): cards coloured by severity, with the logo, times shown in each reader's time zone",
+     "Status summary every 1-24 h: accounts in game, rejoins, network drops, temperature, battery, RAM and each account's status",
+     "Screenshots attached when the disconnect prompt shows, and when an account keeps failing to get in or fails to open",
+     "Tags you in Discord when something needs you: access lost, Bootstrap won't start, 3 failed joins in a row",
+     "Power saving, one tap from Home: virtual screens at 15 FPS, dimmed screen, 60Hz, no animations; turning it off restores everything",
+     "Appearance: 5 accent colours, 3 backgrounds, text size, reduce motion and an option to turn off vibration"
+    ],
+    "zh": [
+     "全新 Discord 通知（Components V2）：按严重程度着色的卡片，带标志，时间按读者所在时区显示",
+     "每 1-24 小时状态汇总：游戏中账号、重连、断网、温度、电池、内存及每个账号的状态",
+     "出现断线窗口时，以及账号连续进不去或打开失败时附带截图",
+     "需要你处理时在 Discord 中提及你：权限丢失、Bootstrap 无法启动、连续 3 次进不去游戏",
+     "省电模式，主页一键开启：虚拟屏幕 15 FPS、调暗屏幕、60Hz、关闭动画；关闭后全部恢复原样",
+     "外观：5 种主题色、3 种背景、字体大小、减少动态效果，并可关闭振动"
+    ],
+    "id": [
+     "Notifikasi Discord baru (Components V2): kartu berwarna sesuai tingkat masalah, dengan logo, waktu sesuai zona waktu pembaca",
+     "Ringkasan status tiap 1-24 jam: akun dalam game, rejoin, internet putus, suhu, baterai, RAM, dan status tiap akun",
+     "Tangkapan layar dilampirkan saat jendela terputus muncul, dan saat akun terus gagal masuk atau gagal dibuka",
+     "Tag Anda di Discord saat perlu ditangani: akses hilang, Bootstrap gagal dimulai, gagal masuk 3 kali berturut-turut",
+     "Mode hemat daya, sekali ketuk dari Beranda: layar virtual 15 FPS, layar redup, 60Hz, tanpa animasi; dimatikan semuanya kembali seperti semula",
+     "Tampilan: 5 warna aksen, 3 latar, ukuran teks, kurangi gerakan, dan getar bisa dimatikan"
+    ],
+    "vi": [
+     "Thông báo Discord mới (Components V2): thẻ màu theo mức độ, có logo, giờ hiển thị theo múi giờ người đọc",
+     "Tóm tắt trạng thái mỗi 1-24 giờ: tài khoản trong game, vào lại, mất mạng, nhiệt độ, pin, RAM và trạng thái từng tài khoản",
+     "Đính kèm ảnh màn hình khi hiện cửa sổ mất kết nối, và khi tài khoản liên tục không vào được hoặc mở thất bại",
+     "Gắn thẻ bạn trên Discord khi cần xử lý: mất quyền, Bootstrap không khởi động, vào game thất bại 3 lần liên tiếp",
+     "Chế độ tiết kiệm, một chạm từ Trang chủ: màn hình ảo 15 FPS, giảm sáng, 60Hz, tắt hiệu ứng; tắt đi thì mọi thứ trở lại như cũ",
+     "Giao diện: 5 màu nhấn, 3 kiểu nền, cỡ chữ, giảm chuyển động và có thể tắt rung"
+    ],
+    "lo": [
+     "ແຈ້ງເຕືອນ Discord ແບບໃໝ່ (Components V2): ກາດສີຕາມຄວາມຮຸນແຮງ ມີໂລໂກ້ ເວລາສະແດງຕາມເຂດເວລາຂອງຜູ້ອ່ານ",
+     "ສະຫຼຸບສະຖານະທຸກ 1-24 ຊມ.: ບັນຊີໃນເກມ ຣີຈອຍ ເນັດຫຼຸດ ອຸນຫະພູມ ແບັດ ແຣມ ແລະ ສະຖານະແຕ່ລະບັນຊີ",
+     "ແນບພາບໜ້າຈໍຕອນເຈິໜ້າຕ່າງຫຼຸດ ແລະ ຕອນເຂົ້າເກມບໍ່ໄດ້ຕິດກັນ ຫຼື ເປີດບໍ່ສຳເລັດ",
+     "ແທັກທ່ານໃນ Discord ເມື່ອຕ້ອງຈັດການເອງ: ສິດຫຼຸດ Bootstrap ເປີດບໍ່ຂຶ້ນ ເຂົ້າເກມບໍ່ໄດ້ຕິດກັນ 3 ຄັ້ງ",
+     "ໂໝດປະຢັດເຄື່ອງ ແຕະດຽວຈາກໜ້າທຳອິດ: ຈໍສະເໝືອນ 15 FPS ຫຼຸດແສງຈໍ ຈໍ 60Hz ປິດອະນິເມຊັນ ປິດແລ້ວຄືນຄ່າເດີມທັງໝົດ",
+     "ໜ້າຕາແອັບ: ເລືອກສີຫຼັກ 5 ສີ ພື້ນຫຼັງ 3 ແບບ ຂະໜາດຕົວອັກສອນ ຫຼຸດການເຄື່ອນໄຫວ ແລະ ປິດການສັ່ນໄດ້"
+    ],
+    "my": [
+     "Discord အသိပေးချက် အသစ် (Components V2): ပြင်းထန်မှုအလိုက် အရောင်ကတ်၊ လိုဂိုပါပြီး အချိန်ကို ဖတ်သူ၏ time zone အတိုင်း ပြသည်",
+     "1-24 နာရီတိုင်း အခြေအနေ အနှစ်ချုပ်: ဂိမ်းထဲရှိ အကောင့်၊ rejoin၊ အင်တာနက်ပြတ်ခြင်း၊ အပူချိန်၊ ဘက်ထရီ၊ RAM နှင့် အကောင့်တစ်ခုချင်း အခြေအနေ",
+     "disconnect window ပေါ်ချိန်နှင့် အကောင့် ဆက်တိုက် ဝင်မရ သို့မဟုတ် ဖွင့်မရချိန် screenshot တွဲပို့သည်",
+     "ကိုင်တွယ်ရန် လိုအပ်လျှင် Discord တွင် tag လုပ်သည်: ခွင့်ပြုချက်ပြတ်ခြင်း၊ Bootstrap မစနိုင်ခြင်း၊ ၃ ကြိမ်ဆက် ဝင်မရခြင်း",
+     "ပါဝါချွေတာမုဒ်၊ ပင်မစာမျက်နှာမှ တစ်ချက်နှိပ်: virtual screen 15 FPS၊ မျက်နှာပြင်မှိန်၊ 60Hz၊ animation ပိတ်၊ ပိတ်လျှင် အားလုံး မူလအတိုင်း ပြန်ဖြစ်သည်",
+     "အသွင်အပြင်: အဓိကအရောင် ၅ မျိုး၊ နောက်ခံ ၃ မျိုး၊ စာလုံးအရွယ်၊ လှုပ်ရှားမှုလျှော့ချခြင်းနှင့် တုန်ခါမှု ပိတ်နိုင်သည်"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-24-color",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "ปุ่มและสีเน้นทั้งแอปใช้สีเขียวเดียวกับคำว่า TOOLS ในโลโก้ เป็นสีเรียบ ไม่ไล่สีแล้ว",
+     "ปุ่มบนวิดเจ็ตและหน้าดูเครื่องผ่านเว็บใช้สีเดียวกัน"
+    ],
+    "en": [
+     "Buttons and accents across the app now use the same green as TOOLS in the logo, flat with no gradients",
+     "The widget button and the web viewer use the same colour"
+    ],
+    "zh": [
+     "整个应用的按钮和强调色改用与标志中 TOOLS 相同的绿色，纯色不再渐变",
+     "小部件按钮和网页查看器也使用相同颜色"
+    ],
+    "id": [
+     "Tombol dan warna aksen di seluruh aplikasi kini memakai hijau yang sama dengan TOOLS di logo, polos tanpa gradasi",
+     "Tombol widget dan penampil web memakai warna yang sama"
+    ],
+    "vi": [
+     "Nút và màu nhấn trong toàn ứng dụng dùng cùng màu xanh với chữ TOOLS trong logo, màu trơn không chuyển sắc",
+     "Nút trên widget và trang xem qua web dùng cùng màu"
+    ],
+    "lo": [
+     "ປຸ່ມ ແລະສີເນັ້ນທັງແອັບໃຊ້ສີຂຽວດຽວກັບຄຳວ່າ TOOLS ໃນໂລໂກ້ ເປັນສີລຽບ ບໍ່ໄລ່ສີແລ້ວ",
+     "ປຸ່ມເທິງວິດເຈັດ ແລະໜ້າເບິ່ງເຄື່ອງຜ່ານເວັບໃຊ້ສີດຽວກັນ"
+    ],
+    "my": [
+     "အက်ပ်တစ်ခုလုံးရှိ ခလုတ်နှင့် အလေးပေးအရောင်များကို လိုဂိုရှိ TOOLS နှင့် တူညီသော အစိမ်းရောင် အပြည့်ဖြင့် သုံးပြီး gradient မသုံးတော့ပါ",
+     "widget ခလုတ်နှင့် web viewer တို့လည်း အရောင်တူ သုံးသည်"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-24-crashlog",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "เมื่อแอปหรือ BONK Bootstrap เด้งปิด จะบันทึกสาเหตุไว้และแนบไปกับ \"รายงานปัญหา\" ให้เอง",
+     "เปิดแอปครั้งถัดไปหลังเด้ง จะมีปุ่มส่งรายงานให้กดได้ทันที",
+     "หน้าต่าง \"มีอะไรใหม่\" นี้ ดูย้อนหลังได้ที่ ตั้งค่า > เกี่ยวกับ"
+    ],
+    "en": [
+     "When the app or BONK Bootstrap crashes, the cause is saved and attached to \"Report a problem\" automatically",
+     "The next time you open the app after a crash, a button lets you send a report right away",
+     "You can read this \"What's new\" again in Settings > About"
+    ],
+    "zh": [
+     "应用或 BONK Bootstrap 崩溃时，会保存原因并自动附加到“报告问题”中",
+     "崩溃后再次打开应用，会出现按钮可立即发送报告",
+     "可在 设置 > 关于 中再次查看此“新功能”"
+    ],
+    "id": [
+     "Saat aplikasi atau BONK Bootstrap crash, penyebabnya disimpan dan otomatis dilampirkan ke \"Laporkan masalah\"",
+     "Saat membuka aplikasi setelah crash, ada tombol untuk langsung mengirim laporan",
+     "\"Yang baru\" ini bisa dibaca lagi di Pengaturan > Tentang"
+    ],
+    "vi": [
+     "Khi ứng dụng hoặc BONK Bootstrap bị văng, nguyên nhân được lưu và tự đính kèm vào \"Báo lỗi\"",
+     "Lần mở ứng dụng tiếp theo sau khi văng sẽ có nút gửi báo cáo ngay",
+     "Có thể xem lại \"Có gì mới\" ở Cài đặt > Giới thiệu"
+    ],
+    "lo": [
+     "ເມື່ອແອັບ ຫຼື BONK Bootstrap ເດັ້ງປິດ ຈະບັນທຶກສາເຫດໄວ້ ແລະແນບໄປກັບ \"ລາຍງານບັນຫາ\" ໃຫ້ເອງ",
+     "ເປີດແອັບຄັ້ງຖັດໄປຫຼັງເດັ້ງ ຈະມີປຸ່ມສົ່ງລາຍງານໃຫ້ກົດໄດ້ທັນທີ",
+     "ໜ້າຕ່າງ \"ມີຫຍັງໃໝ່\" ນີ້ ເບິ່ງຍ້ອນຫຼັງໄດ້ທີ່ ຕັ້ງຄ່າ > ກ່ຽວກັບ"
+    ],
+    "my": [
+     "အက်ပ် သို့မဟုတ် BONK Bootstrap ပိတ်သွားလျှင် အကြောင်းရင်းကို သိမ်းပြီး \"ပြဿနာ အစီရင်ခံ\" တွင် အလိုအလျောက် ပူးတွဲပေးသည်",
+     "ပိတ်သွားပြီးနောက် အက်ပ်ကို ပြန်ဖွင့်လျှင် အစီရင်ခံစာ ချက်ချင်းပို့ရန် ခလုတ် ပေါ်လာမည်",
+     "ဤ \"အသစ်များ\" ကို ဆက်တင် > အကြောင်း တွင် ပြန်ကြည့်နိုင်သည်"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-23-ui",
+   "date": "2026-11-23",
+   "notes": {
+    "th": [
+     "หน้าหลักมีการ์ด \"ต้องดู\" บอกสิ่งที่ทำให้ Rejoin ทำงานไม่ได้ พร้อมปุ่มแก้",
+     "เพิ่มบัญชีแบบ 3 ขั้น วางลิงก์จากคลิปบอร์ดให้เอง",
+     "ลบบัญชีแล้วกด \"เลิกทำ\" ได้ ทำไม่สำเร็จมีปุ่ม \"ลองอีกครั้ง\"",
+     "รองรับแท็บเล็ตและจอแนวนอน แถบแท็บอยู่ด้านซ้าย",
+     "สั่นเบาๆ ตอนกด และสั่นยืนยันเมื่อบัญชีกลับเข้าเกม",
+     "สถิติมีกราฟเวลาในเกมรายวัน"
+    ],
+    "en": [
+     "Home has a \"Needs a look\" card for anything stopping Rejoin, each with a fix button",
+     "Add an account in 3 steps; a link on the clipboard is pasted for you",
+     "Undo after deleting accounts, and \"Try again\" when something fails",
+     "Tablets and landscape: tabs move to a rail on the left",
+     "Light haptics on taps, and a confirm buzz when an account gets back into a game",
+     "Stats show a daily in-game time chart"
+    ],
+    "zh": [
+     "首页新增“需要处理”卡片，列出阻止重连的问题并附修复按钮",
+     "三步添加账号，自动粘贴剪贴板中的链接",
+     "删除账号后可“撤销”，失败时可“重试”",
+     "支持平板和横屏，标签移到左侧",
+     "点击时轻微振动，账号回到游戏时确认振动",
+     "统计新增每日游戏时间图表"
+    ],
+    "id": [
+     "Beranda punya kartu \"Perlu dicek\" untuk hal yang menghentikan Rejoin, masing-masing dengan tombol perbaikan",
+     "Tambah akun dalam 3 langkah; tautan di clipboard ditempel otomatis",
+     "Bisa \"Urungkan\" setelah menghapus akun, dan \"Coba lagi\" saat gagal",
+     "Tablet dan layar mendatar: tab pindah ke kiri",
+     "Getar ringan saat ketuk, dan getar konfirmasi saat akun kembali ke game",
+     "Statistik punya grafik waktu dalam game per hari"
+    ],
+    "vi": [
+     "Trang chính có thẻ \"Cần xem\" cho những gì cản Rejoin, kèm nút sửa",
+     "Thêm tài khoản trong 3 bước; liên kết trong bộ nhớ tạm được dán sẵn",
+     "Có \"Hoàn tác\" sau khi xóa tài khoản, và \"Thử lại\" khi thất bại",
+     "Máy tính bảng và màn hình ngang: thanh tab chuyển sang bên trái",
+     "Rung nhẹ khi chạm, rung xác nhận khi tài khoản vào lại game",
+     "Thống kê có biểu đồ thời gian trong game mỗi ngày"
+    ],
+    "lo": [
+     "ໜ້າຫຼັກມີການ໌ດ \"ຕ້ອງເບິ່ງ\" ບອກສິ່ງທີ່ເຮັດໃຫ້ Rejoin ເຮັດວຽກບໍ່ໄດ້ ພ້ອມປຸ່ມແກ້",
+     "ເພີ່ມບັນຊີແບບ 3 ຂັ້ນ ວາງລິ້ງຈາກຄລິບບອດໃຫ້ເອງ",
+     "ລຶບບັນຊີແລ້ວກົດ \"ຍົກເລີກ\" ໄດ້ ເຮັດບໍ່ສຳເລັດມີປຸ່ມ \"ລອງອີກຄັ້ງ\"",
+     "ຮອງຮັບແທັບເລັດ ແລະຈໍແນວນອນ ແຖບແທັບຢູ່ດ້ານຊ້າຍ",
+     "ສັ່ນເບົາໆຕອນກົດ ແລະສັ່ນຢືນຢັນເມື່ອບັນຊີກັບເຂົ້າເກມ",
+     "ສະຖິຕິມີກຣາຟເວລາໃນເກມລາຍວັນ"
+    ],
+    "my": [
+     "ပင်မစာမျက်နှာတွင် Rejoin ကို ရပ်စေသည့်အရာများအတွက် \"ကြည့်ရန်\" ကတ်နှင့် ပြင်ရန်ခလုတ် ပါသည်",
+     "အဆင့် 3 ဆင့်ဖြင့် အကောင့်ထည့်ပါ၊ clipboard ရှိ လင့်ခ်ကို အလိုအလျောက် ထည့်ပေးသည်",
+     "အကောင့်ဖျက်ပြီး \"ပြန်ဖျက်\" နိုင်ပြီး မအောင်မြင်လျှင် \"ထပ်ကြိုးစား\" ခလုတ် ရှိသည်",
+     "တက်ဘလက်နှင့် အလျားလိုက် မျက်နှာပြင် - တက်ဘ်များ ဘယ်ဘက်သို့ ရွှေ့သည်",
+     "နှိပ်လျှင် အနည်းငယ်တုန်ပြီး အကောင့် ဂိမ်းထဲပြန်ဝင်လျှင် အတည်ပြုတုန်ခါမှု",
+     "စာရင်းအင်းတွင် နေ့စဉ် ဂိမ်းထဲအချိန် ဂရပ် ပါသည်"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-23-floating",
+   "date": "2026-11-23",
+   "notes": {
+    "th": [
+     "หน้าต่างลอยของ BONKTOOLS เปิดเครื่องคลาวด์ได้กี่บานก็ได้ตามแรม ลาก ปรับขนาด ย่อ จัดเรียงได้",
+     "หน้าต่างลอยพิมพ์ข้อความ ปิดเสียง และตั้ง FPS แยกบานได้ รีจอยแล้วอยู่ที่เดิม",
+     "ตั้งค่าครั้งแรกแบบทีละขั้น ขอแจ้งเตือนก่อน",
+     "สแกนแอปมีแถบความคืบหน้า บอกว่ากำลังดูอะไร"
+    ],
+    "en": [
+     "BONKTOOLS floating windows: open as many cloud machines as your RAM allows; drag, resize, minimise, arrange",
+     "Type, mute and set FPS per window; windows stay put after a rejoin",
+     "Step-by-step first setup, notifications first",
+     "App scan shows a progress bar and what it's checking"
+    ],
+    "zh": [
+     "BONKTOOLS 悬浮窗：按内存打开任意数量的云机器，可拖动、调整大小、最小化、排列",
+     "每个窗口可输入文字、静音、单独设置 FPS，重连后位置不变",
+     "分步首次设置，先请求通知权限",
+     "扫描应用时显示进度条和正在检查的内容"
+    ],
+    "id": [
+     "Jendela mengambang BONKTOOLS: buka mesin cloud sebanyak yang RAM sanggup; seret, ubah ukuran, kecilkan, atur",
+     "Ketik, bisukan, dan atur FPS per jendela; jendela tetap di tempat setelah rejoin",
+     "Pengaturan awal langkah demi langkah, notifikasi lebih dulu",
+     "Pemindaian aplikasi menampilkan bilah progres dan yang sedang diperiksa"
+    ],
+    "vi": [
+     "Cửa sổ nổi của BONKTOOLS: mở bao nhiêu máy đám mây tùy RAM; kéo, đổi cỡ, thu nhỏ, sắp xếp",
+     "Gõ chữ, tắt tiếng và chỉnh FPS từng cửa sổ; cửa sổ giữ nguyên chỗ sau khi rejoin",
+     "Thiết lập lần đầu từng bước, xin thông báo trước",
+     "Quét ứng dụng có thanh tiến trình và cho biết đang kiểm tra gì"
+    ],
+    "lo": [
+     "ໜ້າຕ່າງລອຍຂອງ BONKTOOLS ເປີດເຄື່ອງຄລາວໄດ້ຈັກບານກໍໄດ້ຕາມແຣມ ລາກ ປັບຂະໜາດ ຫຍໍ້ ຈັດລຽງໄດ້",
+     "ພິມຂໍ້ຄວາມ ປິດສຽງ ແລະຕັ້ງ FPS ແຍກບານໄດ້ ຣີຈອຍແລ້ວຢູ່ບ່ອນເດີມ",
+     "ຕັ້ງຄ່າຄັ້ງທຳອິດແບບເທື່ອລະຂັ້ນ ຂໍແຈ້ງເຕືອນກ່ອນ",
+     "ສະແກນແອັບມີແຖບຄວາມຄືບໜ້າ ບອກວ່າກຳລັງເບິ່ງຫຍັງ"
+    ],
+    "my": [
+     "BONKTOOLS floating window - RAM ခွင့်ပြုသလောက် cloud စက်များ ဖွင့်နိုင်ပြီး ဆွဲ၊ အရွယ်ပြောင်း၊ ချုံ့၊ စီစဉ်နိုင်သည်",
+     "window တစ်ခုချင်း စာရိုက်၊ အသံပိတ်၊ FPS သတ်မှတ်နိုင်ပြီး rejoin ပြီးလည်း နေရာမပြောင်း",
+     "ပထမဆုံး သတ်မှတ်ခြင်းကို အဆင့်လိုက်၊ အသိပေးချက်ကို အရင်တောင်းသည်",
+     "အက်ပ်စကင်န်တွင် တိုးတက်မှုဘားနှင့် ဘာစစ်နေသည်ကို ပြသည်"
+    ]
+   }
+  },
+  {
+   "id": "2026-11-21-tools",
+   "date": "2026-11-21",
+   "notes": {
+    "th": [
+     "แท็บ Tools: Clone, Auto Clone, Auto Update, Auto Delete, Export/Import Clone Zip, Install File",
+     "Account Manager สลับบัญชี Roblox ได้ในไม่กี่วินาที (ต้องใช้ Root)",
+     "หน้าตั้งค่าแบ่งเป็นหมวดหมู่"
+    ],
+    "en": [
+     "Tools tab: Clone, Auto Clone, Auto Update, Auto Delete, Export/Import Clone Zip, Install File",
+     "Account Manager switches Roblox accounts in seconds (needs Root)",
+     "Settings split into categories"
+    ],
+    "zh": [
+     "Tools 标签：Clone、Auto Clone、Auto Update、Auto Delete、导出/导入 Clone Zip、安装文件",
+     "Account Manager 几秒切换 Roblox 账号（需要 Root）",
+     "设置分为多个类别"
+    ],
+    "id": [
+     "Tab Tools: Clone, Auto Clone, Auto Update, Auto Delete, Ekspor/Impor Clone Zip, Pasang File",
+     "Account Manager berganti akun Roblox dalam hitungan detik (butuh Root)",
+     "Pengaturan dibagi per kategori"
+    ],
+    "vi": [
+     "Tab Tools: Clone, Auto Clone, Auto Update, Auto Delete, Xuất/Nhập Clone Zip, Cài tệp",
+     "Account Manager đổi tài khoản Roblox trong vài giây (cần Root)",
+     "Cài đặt chia theo danh mục"
+    ],
+    "lo": [
+     "ແຖບ Tools: Clone, Auto Clone, Auto Update, Auto Delete, Export/Import Clone Zip, Install File",
+     "Account Manager ສະຫຼັບບັນຊີ Roblox ໄດ້ໃນບໍ່ເທົ່າໃດວິນາທີ (ຕ້ອງໃຊ້ Root)",
+     "ໜ້າຕັ້ງຄ່າແບ່ງເປັນໝວດໝູ່"
+    ],
+    "my": [
+     "Tools တက်ဘ် - Clone, Auto Clone, Auto Update, Auto Delete, Clone Zip ထုတ်/သွင်း, ဖိုင်ထည့်သွင်း",
+     "Account Manager ဖြင့် Roblox အကောင့်ကို စက္ကန့်ပိုင်းအတွင်း ပြောင်းနိုင်သည် (Root လိုသည်)",
+     "ဆက်တင်များကို အမျိုးအစားလိုက် ခွဲထားသည်"
+    ]
+   }
+  }
+ ]
 }
