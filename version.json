@@ -1,12 +1,39 @@
 {
  "schema": 1,
- "versionCode": 68,
- "versionName": "1.0.68",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-68/BONKTOOLS.apk",
- "sha256": "b4f5e7c02a256e43803ed860c9f12a97ce17ef4c62bc8fce75a0ecf6f9a94f78",
- "size": 25406212,
- "published": "2026-11-24T07:23:33Z",
+ "versionCode": 69,
+ "versionName": "1.0.69",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-69/BONKTOOLS.apk",
+ "sha256": "91311b202141ff191032379d985be2c22c29e7569c6bab91136b787b0fc3a187",
+ "size": 25406780,
+ "published": "2026-11-24T07:42:09Z",
  "changelog": [
+  {
+   "id": "2026-11-24-netstats-fix",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "อ่านปริมาณข้อมูลของแต่ละแอปได้แล้ว (รอบก่อนไปอ่านบรรทัดสถานะแทนตัวเลข) บัญชีที่ Roblox ไม่บอกที่อยู่เซิร์ฟเวอร์จะขึ้น \"ในเกม\" ได้ถูกต้อง"
+    ],
+    "en": [
+     "Per-app data counts are read correctly now (the last version read the status line instead of the numbers), so accounts whose Roblox doesn't name the server show \"In game\" properly"
+    ],
+    "zh": [
+     "现在能正确读取每个应用的数据量（上一版读到的是状态行而不是数字），不显示服务器地址的 Roblox 账号也能正确显示“游戏中”"
+    ],
+    "id": [
+     "Jumlah data tiap aplikasi kini terbaca dengan benar (versi sebelumnya membaca baris status, bukan angkanya), sehingga akun yang Roblox-nya tidak menyebut server tampil \"Dalam game\" dengan benar"
+    ],
+    "vi": [
+     "Đã đọc đúng lượng dữ liệu của từng ứng dụng (bản trước đọc nhầm dòng trạng thái thay vì con số), nên tài khoản có Roblox không cho biết máy chủ sẽ hiện \"Trong game\" đúng"
+    ],
+    "lo": [
+     "ອ່ານປະລິມານຂໍ້ມູນຂອງແຕ່ລະແອັບໄດ້ແລ້ວ (ຮອບກ່ອນໄປອ່ານແຖວສະຖານະແທນຕົວເລກ) ບັນຊີທີ່ Roblox ບໍ່ບອກທີ່ຢູ່ເຊີບເວີຈະຂຶ້ນ \"ໃນເກມ\" ໄດ້ຖືກຕ້ອງ"
+    ],
+    "my": [
+     "app တစ်ခုချင်း၏ ဒေတာပမာဏကို မှန်ကန်စွာ ဖတ်နိုင်ပြီ (ယခင်ဗားရှင်းက ကိန်းဂဏန်းအစား အခြေအနေစာကြောင်းကို ဖတ်ခဲ့သည်)၊ server မပြသော Roblox အကောင့်များ \"ဂိမ်းထဲ\" ဟု မှန်ကန်စွာ ပြမည်"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-hidden-socket",
    "date": "2026-11-24",
@@ -352,40 +379,6 @@
      "ကိုင်တွယ်ရန် လိုအပ်လျှင် Discord တွင် tag လုပ်သည်: ခွင့်ပြုချက်ပြတ်ခြင်း၊ Bootstrap မစနိုင်ခြင်း၊ ၃ ကြိမ်ဆက် ဝင်မရခြင်း",
      "ပါဝါချွေတာမုဒ်၊ ပင်မစာမျက်နှာမှ တစ်ချက်နှိပ်: virtual screen 15 FPS၊ မျက်နှာပြင်မှိန်၊ 60Hz၊ animation ပိတ်၊ ပိတ်လျှင် အားလုံး မူလအတိုင်း ပြန်ဖြစ်သည်",
      "အသွင်အပြင်: အဓိကအရောင် ၅ မျိုး၊ နောက်ခံ ၃ မျိုး၊ စာလုံးအရွယ်၊ လှုပ်ရှားမှုလျှော့ချခြင်းနှင့် တုန်ခါမှု ပိတ်နိုင်သည်"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-24-color",
-   "date": "2026-11-24",
-   "notes": {
-    "th": [
-     "ปุ่มและสีเน้นทั้งแอปใช้สีเขียวเดียวกับคำว่า TOOLS ในโลโก้ เป็นสีเรียบ ไม่ไล่สีแล้ว",
-     "ปุ่มบนวิดเจ็ตและหน้าดูเครื่องผ่านเว็บใช้สีเดียวกัน"
-    ],
-    "en": [
-     "Buttons and accents across the app now use the same green as TOOLS in the logo, flat with no gradients",
-     "The widget button and the web viewer use the same colour"
-    ],
-    "zh": [
-     "整个应用的按钮和强调色改用与标志中 TOOLS 相同的绿色，纯色不再渐变",
-     "小部件按钮和网页查看器也使用相同颜色"
-    ],
-    "id": [
-     "Tombol dan warna aksen di seluruh aplikasi kini memakai hijau yang sama dengan TOOLS di logo, polos tanpa gradasi",
-     "Tombol widget dan penampil web memakai warna yang sama"
-    ],
-    "vi": [
-     "Nút và màu nhấn trong toàn ứng dụng dùng cùng màu xanh với chữ TOOLS trong logo, màu trơn không chuyển sắc",
-     "Nút trên widget và trang xem qua web dùng cùng màu"
-    ],
-    "lo": [
-     "ປຸ່ມ ແລະສີເນັ້ນທັງແອັບໃຊ້ສີຂຽວດຽວກັບຄຳວ່າ TOOLS ໃນໂລໂກ້ ເປັນສີລຽບ ບໍ່ໄລ່ສີແລ້ວ",
-     "ປຸ່ມເທິງວິດເຈັດ ແລະໜ້າເບິ່ງເຄື່ອງຜ່ານເວັບໃຊ້ສີດຽວກັນ"
-    ],
-    "my": [
-     "အက်ပ်တစ်ခုလုံးရှိ ခလုတ်နှင့် အလေးပေးအရောင်များကို လိုဂိုရှိ TOOLS နှင့် တူညီသော အစိမ်းရောင် အပြည့်ဖြင့် သုံးပြီး gradient မသုံးတော့ပါ",
-     "widget ခလုတ်နှင့် web viewer တို့လည်း အရောင်တူ သုံးသည်"
     ]
    }
   }
