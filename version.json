@@ -1,12 +1,46 @@
 {
  "schema": 1,
- "versionCode": 66,
- "versionName": "1.0.66",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-66/BONKTOOLS.apk",
- "sha256": "2c40ffa214009d0ffe3b552a145a6473fc39dabb7d0635ce962d1ab5c9cccde2",
- "size": 25404216,
- "published": "2026-11-24T06:54:09Z",
+ "versionCode": 67,
+ "versionName": "1.0.67",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-67/BONKTOOLS.apk",
+ "sha256": "af6f445d8aa7302c8fa7fd564b4f16a85b1bc58e3ce02d32dbb48648fc72d909",
+ "size": 25404800,
+ "published": "2026-11-24T07:09:45Z",
  "changelog": [
+  {
+   "id": "2026-11-24-app-processes",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "ตรวจการเชื่อมต่อของทุกโปรเซสของ Roblox (เช่น :isolate) ไม่ใช่แค่โปรเซสหลัก",
+     "\"ดูสิ่งที่ระบบตรวจเจอ\" แสดงการเชื่อมต่อของโปรเซสอื่นที่คุยกับเซิร์ฟเวอร์ด้วย เพื่อหาสาเหตุได้ครบ"
+    ],
+    "en": [
+     "The game-connection check covers every Roblox process (such as :isolate), not only the main one",
+     "\"See what the checks see\" also lists other processes talking to servers, to find the cause"
+    ],
+    "zh": [
+     "游戏连接检测覆盖 Roblox 的所有进程（如 :isolate），而不只是主进程",
+     "“查看检测到的内容”也会列出其他与服务器通信的进程，便于找出原因"
+    ],
+    "id": [
+     "Cek koneksi game mencakup semua proses Roblox (seperti :isolate), bukan hanya proses utama",
+     "\"Lihat yang terlihat oleh pengecekan\" juga menampilkan proses lain yang berkomunikasi dengan server untuk menemukan penyebab"
+    ],
+    "vi": [
+     "Kiểm tra kết nối game bao gồm mọi tiến trình của Roblox (như :isolate), không chỉ tiến trình chính",
+     "\"Xem những gì hệ thống thấy\" còn liệt kê tiến trình khác đang nói chuyện với máy chủ để tìm nguyên nhân"
+    ],
+    "lo": [
+     "ກວດການເຊື່ອມຕໍ່ຂອງທຸກໂປຣເຊສຂອງ Roblox (ເຊັ່ນ :isolate) ບໍ່ແມ່ນແຕ່ໂປຣເຊສຫຼັກ",
+     "\"ເບິ່ງສິ່ງທີ່ລະບົບກວດເຫັນ\" ສະແດງການເຊື່ອມຕໍ່ຂອງໂປຣເຊສອື່ນທີ່ລົມກັບເຊີບເວີດ້ວຍ ເພື່ອຫາສາເຫດໄດ້ຄົບ"
+    ],
+    "my": [
+     "ဂိမ်းချိတ်ဆက်မှု စစ်ခြင်းသည် Roblox ၏ process အားလုံး (ဥပမာ :isolate) ကို စစ်သည်၊ အဓိက process တစ်ခုတည်း မဟုတ်ပါ",
+     "\"စစ်ဆေးမှုက မြင်ရသည်ကို ကြည့်မည်\" တွင် server နှင့် ဆက်သွယ်နေသော အခြား process များကိုလည်း ပြ၍ အကြောင်းရင်း ရှာနိုင်သည်"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-float-bottom",
    "date": "2026-11-24",
@@ -359,68 +393,6 @@
      "အက်ပ် သို့မဟုတ် BONK Bootstrap ပိတ်သွားလျှင် အကြောင်းရင်းကို သိမ်းပြီး \"ပြဿနာ အစီရင်ခံ\" တွင် အလိုအလျောက် ပူးတွဲပေးသည်",
      "ပိတ်သွားပြီးနောက် အက်ပ်ကို ပြန်ဖွင့်လျှင် အစီရင်ခံစာ ချက်ချင်းပို့ရန် ခလုတ် ပေါ်လာမည်",
      "ဤ \"အသစ်များ\" ကို ဆက်တင် > အကြောင်း တွင် ပြန်ကြည့်နိုင်သည်"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-23-ui",
-   "date": "2026-11-23",
-   "notes": {
-    "th": [
-     "หน้าหลักมีการ์ด \"ต้องดู\" บอกสิ่งที่ทำให้ Rejoin ทำงานไม่ได้ พร้อมปุ่มแก้",
-     "เพิ่มบัญชีแบบ 3 ขั้น วางลิงก์จากคลิปบอร์ดให้เอง",
-     "ลบบัญชีแล้วกด \"เลิกทำ\" ได้ ทำไม่สำเร็จมีปุ่ม \"ลองอีกครั้ง\"",
-     "รองรับแท็บเล็ตและจอแนวนอน แถบแท็บอยู่ด้านซ้าย",
-     "สั่นเบาๆ ตอนกด และสั่นยืนยันเมื่อบัญชีกลับเข้าเกม",
-     "สถิติมีกราฟเวลาในเกมรายวัน"
-    ],
-    "en": [
-     "Home has a \"Needs a look\" card for anything stopping Rejoin, each with a fix button",
-     "Add an account in 3 steps; a link on the clipboard is pasted for you",
-     "Undo after deleting accounts, and \"Try again\" when something fails",
-     "Tablets and landscape: tabs move to a rail on the left",
-     "Light haptics on taps, and a confirm buzz when an account gets back into a game",
-     "Stats show a daily in-game time chart"
-    ],
-    "zh": [
-     "首页新增“需要处理”卡片，列出阻止重连的问题并附修复按钮",
-     "三步添加账号，自动粘贴剪贴板中的链接",
-     "删除账号后可“撤销”，失败时可“重试”",
-     "支持平板和横屏，标签移到左侧",
-     "点击时轻微振动，账号回到游戏时确认振动",
-     "统计新增每日游戏时间图表"
-    ],
-    "id": [
-     "Beranda punya kartu \"Perlu dicek\" untuk hal yang menghentikan Rejoin, masing-masing dengan tombol perbaikan",
-     "Tambah akun dalam 3 langkah; tautan di clipboard ditempel otomatis",
-     "Bisa \"Urungkan\" setelah menghapus akun, dan \"Coba lagi\" saat gagal",
-     "Tablet dan layar mendatar: tab pindah ke kiri",
-     "Getar ringan saat ketuk, dan getar konfirmasi saat akun kembali ke game",
-     "Statistik punya grafik waktu dalam game per hari"
-    ],
-    "vi": [
-     "Trang chính có thẻ \"Cần xem\" cho những gì cản Rejoin, kèm nút sửa",
-     "Thêm tài khoản trong 3 bước; liên kết trong bộ nhớ tạm được dán sẵn",
-     "Có \"Hoàn tác\" sau khi xóa tài khoản, và \"Thử lại\" khi thất bại",
-     "Máy tính bảng và màn hình ngang: thanh tab chuyển sang bên trái",
-     "Rung nhẹ khi chạm, rung xác nhận khi tài khoản vào lại game",
-     "Thống kê có biểu đồ thời gian trong game mỗi ngày"
-    ],
-    "lo": [
-     "ໜ້າຫຼັກມີການ໌ດ \"ຕ້ອງເບິ່ງ\" ບອກສິ່ງທີ່ເຮັດໃຫ້ Rejoin ເຮັດວຽກບໍ່ໄດ້ ພ້ອມປຸ່ມແກ້",
-     "ເພີ່ມບັນຊີແບບ 3 ຂັ້ນ ວາງລິ້ງຈາກຄລິບບອດໃຫ້ເອງ",
-     "ລຶບບັນຊີແລ້ວກົດ \"ຍົກເລີກ\" ໄດ້ ເຮັດບໍ່ສຳເລັດມີປຸ່ມ \"ລອງອີກຄັ້ງ\"",
-     "ຮອງຮັບແທັບເລັດ ແລະຈໍແນວນອນ ແຖບແທັບຢູ່ດ້ານຊ້າຍ",
-     "ສັ່ນເບົາໆຕອນກົດ ແລະສັ່ນຢືນຢັນເມື່ອບັນຊີກັບເຂົ້າເກມ",
-     "ສະຖິຕິມີກຣາຟເວລາໃນເກມລາຍວັນ"
-    ],
-    "my": [
-     "ပင်မစာမျက်နှာတွင် Rejoin ကို ရပ်စေသည့်အရာများအတွက် \"ကြည့်ရန်\" ကတ်နှင့် ပြင်ရန်ခလုတ် ပါသည်",
-     "အဆင့် 3 ဆင့်ဖြင့် အကောင့်ထည့်ပါ၊ clipboard ရှိ လင့်ခ်ကို အလိုအလျောက် ထည့်ပေးသည်",
-     "အကောင့်ဖျက်ပြီး \"ပြန်ဖျက်\" နိုင်ပြီး မအောင်မြင်လျှင် \"ထပ်ကြိုးစား\" ခလုတ် ရှိသည်",
-     "တက်ဘလက်နှင့် အလျားလိုက် မျက်နှာပြင် - တက်ဘ်များ ဘယ်ဘက်သို့ ရွှေ့သည်",
-     "နှိပ်လျှင် အနည်းငယ်တုန်ပြီး အကောင့် ဂိမ်းထဲပြန်ဝင်လျှင် အတည်ပြုတုန်ခါမှု",
-     "စာရင်းအင်းတွင် နေ့စဉ် ဂိမ်းထဲအချိန် ဂရပ် ပါသည်"
     ]
    }
   }
