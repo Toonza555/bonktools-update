@@ -1,12 +1,53 @@
 {
  "schema": 1,
- "versionCode": 69,
- "versionName": "1.0.69",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-69/BONKTOOLS.apk",
- "sha256": "91311b202141ff191032379d985be2c22c29e7569c6bab91136b787b0fc3a187",
- "size": 25406780,
- "published": "2026-11-24T07:42:09Z",
+ "versionCode": 70,
+ "versionName": "1.0.70",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-70/BONKTOOLS.apk",
+ "sha256": "0c9ec8966d178f41bfc61a0db79326945bc62077cff8205bb8338a7b40c6400d",
+ "size": 25408288,
+ "published": "2026-11-24T07:58:55Z",
  "changelog": [
+  {
+   "id": "2026-11-24-on-screen",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "เครื่องเสมือนที่ Roblox ไม่ได้อยู่บนจอ (เช่นหลัง Bootstrap เริ่มใหม่ จอกลับไปหน้าโฮม) จะถูกเปิดกลับเข้าเกมบนจอของมันเอง เดิมระบบเห็นว่าแอปยังรันอยู่เลยไม่ทำอะไร",
+     "เลิกใช้ปริมาณข้อมูลตัดสินว่าอยู่ในเกม เพราะวัดจริงแล้วเพี้ยน ทำให้บัญชีที่ไม่ได้อยู่ในเกมขึ้นว่า \"ในเกม\"",
+     "\"ดูสิ่งที่ระบบตรวจเจอ\" บอกว่าแต่ละเครื่องมี Roblox อยู่บนจอไหม และส่วนต่างๆ ของ Roblox ที่ทำงานอยู่"
+    ],
+    "en": [
+     "Machines whose screen no longer shows Roblox (for example after Bootstrap restarts and the screen goes back home) get Roblox reopened on their own screen; before, the app was still running so nothing happened",
+     "Data volume is no longer used to decide \"in game\": measured on a real phone it was wrong and showed accounts that weren't in a game as \"In game\"",
+     "\"See what the checks see\" tells whether each machine shows Roblox and which parts of Roblox are running"
+    ],
+    "zh": [
+     "屏幕上已不显示 Roblox 的虚拟机（例如 Bootstrap 重启后屏幕回到桌面）会在它自己的屏幕上重新打开 Roblox；以前因为应用仍在运行而不做处理",
+     "不再用数据量判断是否在游戏中：在真机上实测不准确，会把不在游戏中的账号显示为“游戏中”",
+     "“查看检测到的内容”会显示每台机器屏幕上是否有 Roblox，以及 Roblox 正在运行的部分"
+    ],
+    "id": [
+     "Mesin yang layarnya tidak lagi menampilkan Roblox (misalnya setelah Bootstrap dimulai ulang dan layar kembali ke beranda) akan membuka Roblox lagi di layarnya sendiri; sebelumnya tidak ada tindakan karena aplikasinya masih berjalan",
+     "Jumlah data tidak lagi dipakai untuk menentukan \"dalam game\": diukur di ponsel nyata hasilnya salah dan akun yang tidak di game tampil \"Dalam game\"",
+     "\"Lihat yang terlihat oleh pengecekan\" menunjukkan apakah tiap mesin menampilkan Roblox dan bagian Roblox mana yang berjalan"
+    ],
+    "vi": [
+     "Máy ảo không còn hiện Roblox trên màn hình (ví dụ sau khi Bootstrap khởi động lại và màn hình về trang chủ) sẽ được mở lại Roblox trên màn hình của chính nó; trước đây ứng dụng vẫn chạy nên không làm gì",
+     "Không dùng lượng dữ liệu để xác định \"trong game\" nữa: đo trên máy thật bị sai, khiến tài khoản không ở trong game hiện \"Trong game\"",
+     "\"Xem những gì hệ thống thấy\" cho biết từng máy có hiện Roblox không và những phần nào của Roblox đang chạy"
+    ],
+    "lo": [
+     "ເຄື່ອງສະເໝືອນທີ່ Roblox ບໍ່ໄດ້ຢູ່ເທິງຈໍ (ເຊັ່ນຫຼັງ Bootstrap ເລີ່ມໃໝ່ ຈໍກັບໄປໜ້າໂຮມ) ຈະຖືກເປີດກັບເຂົ້າເກມເທິງຈໍຂອງມັນເອງ ເດີມລະບົບເຫັນວ່າແອັບຍັງແລ່ນຢູ່ເລີຍບໍ່ເຮັດຫຍັງ",
+     "ເລີກໃຊ້ປະລິມານຂໍ້ມູນຕັດສິນວ່າຢູ່ໃນເກມ ເພາະວັດແທ້ແລ້ວເພີ້ຍນ ເຮັດໃຫ້ບັນຊີທີ່ບໍ່ໄດ້ຢູ່ໃນເກມຂຶ້ນວ່າ \"ໃນເກມ\"",
+     "\"ເບິ່ງສິ່ງທີ່ລະບົບກວດເຫັນ\" ບອກວ່າແຕ່ລະເຄື່ອງມີ Roblox ຢູ່ເທິງຈໍບໍ່ ແລະ ສ່ວນຕ່າງໆຂອງ Roblox ທີ່ເຮັດວຽກຢູ່"
+    ],
+    "my": [
+     "မျက်နှာပြင်ပေါ်တွင် Roblox မရှိတော့သော virtual machine များ (ဥပမာ Bootstrap ပြန်စပြီး home သို့ ပြန်သွားလျှင်) ကို ကိုယ့်မျက်နှာပြင်ပေါ်တွင် Roblox ပြန်ဖွင့်ပေးမည်၊ ယခင်က app run နေဆဲဖြစ်၍ ဘာမှမလုပ်ခဲ့ပါ",
+     "ဂိမ်းထဲရှိမရှိကို ဒေတာပမာဏဖြင့် မဆုံးဖြတ်တော့ပါ: ဖုန်းအမှန်တွင် တိုင်းကြည့်ရာ မမှန်ဘဲ ဂိမ်းထဲမရှိသော အကောင့်ကို \"ဂိမ်းထဲ\" ဟု ပြခဲ့သည်",
+     "\"စစ်ဆေးမှုက မြင်ရသည်ကို ကြည့်မည်\" တွင် စက်တစ်ခုချင်း မျက်နှာပြင်ပေါ်တွင် Roblox ရှိမရှိနှင့် Roblox ၏ မည်သည့်အပိုင်းများ အလုပ်လုပ်နေသည်ကို ပြသည်"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-netstats-fix",
    "date": "2026-11-24",
@@ -317,68 +358,6 @@
      "app ထဲမှ အပ်ဒိတ်: ဗားရှင်းအသစ်ထွက်လျှင် ဘာပြောင်းလဲလဲ ပြောပြပြီး ခလုတ်တစ်ချက်ဖြင့် ဒေါင်းလုဒ်နှင့် ထည့်သွင်းပေးသည် (Shizuku၊ root သို့မဟုတ် ADB ဖြင့် အတည်ပြုရန်မလို)",
      "ထည့်သွင်းမီ ဖိုင်ကို အမြဲစစ်သည်: အရွယ်အစား၊ SHA-256 နှင့် ထည့်ထားသော app နှင့် တူညီသော လက်မှတ်",
      "အပ်ဒိတ်ပြီးနောက် စောင့်ကြည့်မှု ဆက်လုပ်မည်။ အလိုအလျောက်စစ်ခြင်းကို Settings > About တွင် ပိတ်နိုင်သည်"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-24-discord-v2",
-   "date": "2026-11-24",
-   "notes": {
-    "th": [
-     "แจ้งเตือน Discord แบบใหม่ (Components V2): การ์ดสีตามความรุนแรง มีโลโก้ เวลาแสดงตามเขตเวลาของผู้อ่าน",
-     "สรุปสถานะทุก 1-24 ชม.: บัญชีในเกม รีจอยน์ เน็ตหลุด อุณหภูมิ แบต แรม และสถานะรายบัญชี",
-     "แนบภาพหน้าจอตอนเจอหน้าต่างหลุด และตอนเข้าเกมไม่ได้ติดกันหรือเปิดไม่สำเร็จ",
-     "แท็กคุณใน Discord เมื่อต้องจัดการเอง: สิทธิ์หลุด Bootstrap เปิดไม่ขึ้น เข้าเกมไม่ได้ติดกัน 3 ครั้ง",
-     "โหมดประหยัดเครื่อง แตะเดียวจากหน้าแรก: จอเสมือน 15 FPS หรี่จอ จอ 60Hz ปิดอนิเมชัน ปิดแล้วคืนค่าเดิมทั้งหมด",
-     "หน้าตาแอป: เลือกสีหลัก 5 สี พื้นหลัง 3 แบบ ขนาดตัวอักษร ลดการเคลื่อนไหว และปิดการสั่นได้"
-    ],
-    "en": [
-     "New Discord notifications (Components V2): cards coloured by severity, with the logo, times shown in each reader's time zone",
-     "Status summary every 1-24 h: accounts in game, rejoins, network drops, temperature, battery, RAM and each account's status",
-     "Screenshots attached when the disconnect prompt shows, and when an account keeps failing to get in or fails to open",
-     "Tags you in Discord when something needs you: access lost, Bootstrap won't start, 3 failed joins in a row",
-     "Power saving, one tap from Home: virtual screens at 15 FPS, dimmed screen, 60Hz, no animations; turning it off restores everything",
-     "Appearance: 5 accent colours, 3 backgrounds, text size, reduce motion and an option to turn off vibration"
-    ],
-    "zh": [
-     "全新 Discord 通知（Components V2）：按严重程度着色的卡片，带标志，时间按读者所在时区显示",
-     "每 1-24 小时状态汇总：游戏中账号、重连、断网、温度、电池、内存及每个账号的状态",
-     "出现断线窗口时，以及账号连续进不去或打开失败时附带截图",
-     "需要你处理时在 Discord 中提及你：权限丢失、Bootstrap 无法启动、连续 3 次进不去游戏",
-     "省电模式，主页一键开启：虚拟屏幕 15 FPS、调暗屏幕、60Hz、关闭动画；关闭后全部恢复原样",
-     "外观：5 种主题色、3 种背景、字体大小、减少动态效果，并可关闭振动"
-    ],
-    "id": [
-     "Notifikasi Discord baru (Components V2): kartu berwarna sesuai tingkat masalah, dengan logo, waktu sesuai zona waktu pembaca",
-     "Ringkasan status tiap 1-24 jam: akun dalam game, rejoin, internet putus, suhu, baterai, RAM, dan status tiap akun",
-     "Tangkapan layar dilampirkan saat jendela terputus muncul, dan saat akun terus gagal masuk atau gagal dibuka",
-     "Tag Anda di Discord saat perlu ditangani: akses hilang, Bootstrap gagal dimulai, gagal masuk 3 kali berturut-turut",
-     "Mode hemat daya, sekali ketuk dari Beranda: layar virtual 15 FPS, layar redup, 60Hz, tanpa animasi; dimatikan semuanya kembali seperti semula",
-     "Tampilan: 5 warna aksen, 3 latar, ukuran teks, kurangi gerakan, dan getar bisa dimatikan"
-    ],
-    "vi": [
-     "Thông báo Discord mới (Components V2): thẻ màu theo mức độ, có logo, giờ hiển thị theo múi giờ người đọc",
-     "Tóm tắt trạng thái mỗi 1-24 giờ: tài khoản trong game, vào lại, mất mạng, nhiệt độ, pin, RAM và trạng thái từng tài khoản",
-     "Đính kèm ảnh màn hình khi hiện cửa sổ mất kết nối, và khi tài khoản liên tục không vào được hoặc mở thất bại",
-     "Gắn thẻ bạn trên Discord khi cần xử lý: mất quyền, Bootstrap không khởi động, vào game thất bại 3 lần liên tiếp",
-     "Chế độ tiết kiệm, một chạm từ Trang chủ: màn hình ảo 15 FPS, giảm sáng, 60Hz, tắt hiệu ứng; tắt đi thì mọi thứ trở lại như cũ",
-     "Giao diện: 5 màu nhấn, 3 kiểu nền, cỡ chữ, giảm chuyển động và có thể tắt rung"
-    ],
-    "lo": [
-     "ແຈ້ງເຕືອນ Discord ແບບໃໝ່ (Components V2): ກາດສີຕາມຄວາມຮຸນແຮງ ມີໂລໂກ້ ເວລາສະແດງຕາມເຂດເວລາຂອງຜູ້ອ່ານ",
-     "ສະຫຼຸບສະຖານະທຸກ 1-24 ຊມ.: ບັນຊີໃນເກມ ຣີຈອຍ ເນັດຫຼຸດ ອຸນຫະພູມ ແບັດ ແຣມ ແລະ ສະຖານະແຕ່ລະບັນຊີ",
-     "ແນບພາບໜ້າຈໍຕອນເຈິໜ້າຕ່າງຫຼຸດ ແລະ ຕອນເຂົ້າເກມບໍ່ໄດ້ຕິດກັນ ຫຼື ເປີດບໍ່ສຳເລັດ",
-     "ແທັກທ່ານໃນ Discord ເມື່ອຕ້ອງຈັດການເອງ: ສິດຫຼຸດ Bootstrap ເປີດບໍ່ຂຶ້ນ ເຂົ້າເກມບໍ່ໄດ້ຕິດກັນ 3 ຄັ້ງ",
-     "ໂໝດປະຢັດເຄື່ອງ ແຕະດຽວຈາກໜ້າທຳອິດ: ຈໍສະເໝືອນ 15 FPS ຫຼຸດແສງຈໍ ຈໍ 60Hz ປິດອະນິເມຊັນ ປິດແລ້ວຄືນຄ່າເດີມທັງໝົດ",
-     "ໜ້າຕາແອັບ: ເລືອກສີຫຼັກ 5 ສີ ພື້ນຫຼັງ 3 ແບບ ຂະໜາດຕົວອັກສອນ ຫຼຸດການເຄື່ອນໄຫວ ແລະ ປິດການສັ່ນໄດ້"
-    ],
-    "my": [
-     "Discord အသိပေးချက် အသစ် (Components V2): ပြင်းထန်မှုအလိုက် အရောင်ကတ်၊ လိုဂိုပါပြီး အချိန်ကို ဖတ်သူ၏ time zone အတိုင်း ပြသည်",
-     "1-24 နာရီတိုင်း အခြေအနေ အနှစ်ချုပ်: ဂိမ်းထဲရှိ အကောင့်၊ rejoin၊ အင်တာနက်ပြတ်ခြင်း၊ အပူချိန်၊ ဘက်ထရီ၊ RAM နှင့် အကောင့်တစ်ခုချင်း အခြေအနေ",
-     "disconnect window ပေါ်ချိန်နှင့် အကောင့် ဆက်တိုက် ဝင်မရ သို့မဟုတ် ဖွင့်မရချိန် screenshot တွဲပို့သည်",
-     "ကိုင်တွယ်ရန် လိုအပ်လျှင် Discord တွင် tag လုပ်သည်: ခွင့်ပြုချက်ပြတ်ခြင်း၊ Bootstrap မစနိုင်ခြင်း၊ ၃ ကြိမ်ဆက် ဝင်မရခြင်း",
-     "ပါဝါချွေတာမုဒ်၊ ပင်မစာမျက်နှာမှ တစ်ချက်နှိပ်: virtual screen 15 FPS၊ မျက်နှာပြင်မှိန်၊ 60Hz၊ animation ပိတ်၊ ပိတ်လျှင် အားလုံး မူလအတိုင်း ပြန်ဖြစ်သည်",
-     "အသွင်အပြင်: အဓိကအရောင် ၅ မျိုး၊ နောက်ခံ ၃ မျိုး၊ စာလုံးအရွယ်၊ လှုပ်ရှားမှုလျှော့ချခြင်းနှင့် တုန်ခါမှု ပိတ်နိုင်သည်"
     ]
    }
   }
