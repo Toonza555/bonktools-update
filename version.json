@@ -1,12 +1,46 @@
 {
  "schema": 1,
- "versionCode": 67,
- "versionName": "1.0.67",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-67/BONKTOOLS.apk",
- "sha256": "af6f445d8aa7302c8fa7fd564b4f16a85b1bc58e3ce02d32dbb48648fc72d909",
- "size": 25404800,
- "published": "2026-11-24T07:09:45Z",
+ "versionCode": 68,
+ "versionName": "1.0.68",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-68/BONKTOOLS.apk",
+ "sha256": "b4f5e7c02a256e43803ed860c9f12a97ce17ef4c62bc8fce75a0ecf6f9a94f78",
+ "size": 25406212,
+ "published": "2026-11-24T07:23:33Z",
  "changelog": [
+  {
+   "id": "2026-11-24-hidden-socket",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "แก้บัญชีที่อยู่ในเกมแต่ขึ้น \"เปิดอยู่\" แล้วโดนรีจอยน์ทิ้ง: Roblox บางตัวเล่นเกมผ่านช่องทางที่ไม่บอกที่อยู่เซิร์ฟเวอร์ ตอนนี้ดูจากปริมาณข้อมูลที่แอปรับแทน",
+     "ถ้ามือถืออ่านปริมาณข้อมูลไม่ได้ จะไม่รีจอยน์บัญชีพวกนั้นเพราะ \"ไม่เห็นการเชื่อมต่อ\" อีก ยังจับได้ตอนขึ้นหน้าต่างหลุดหรือแอปปิด"
+    ],
+    "en": [
+     "Fixed accounts in game showing \"Open\" and being rejoined: some Roblox versions play through a channel that doesn't name the server, so the app's received data is used instead",
+     "If the phone doesn't show those numbers, such accounts are no longer rejoined for \"no connection seen\"; the error prompt and app closing still catch drops"
+    ],
+    "zh": [
+     "修复在游戏中却显示“已打开”并被重连的问题：部分 Roblox 版本通过不显示服务器地址的通道游戏，现改为根据应用接收的数据量判断",
+     "如果手机无法读取数据量，这类账号不再因“看不到连接”而被重连；断线窗口和应用关闭仍可检测"
+    ],
+    "id": [
+     "Memperbaiki akun di dalam game yang tampil \"Terbuka\" lalu di-rejoin: beberapa versi Roblox bermain lewat jalur yang tidak menyebut alamat server, kini dilihat dari data yang diterima aplikasi",
+     "Jika ponsel tidak menampilkan angka itu, akun tersebut tidak lagi di-rejoin karena \"koneksi tidak terlihat\"; jendela error dan aplikasi tertutup tetap terdeteksi"
+    ],
+    "vi": [
+     "Sửa tài khoản đang trong game nhưng hiện \"Đang mở\" rồi bị vào lại: một số bản Roblox chơi qua kênh không cho biết địa chỉ máy chủ, nay dựa vào lượng dữ liệu ứng dụng nhận",
+     "Nếu máy không cho đọc lượng dữ liệu, các tài khoản đó không còn bị vào lại vì \"không thấy kết nối\"; cửa sổ mất kết nối và ứng dụng bị đóng vẫn được phát hiện"
+    ],
+    "lo": [
+     "ແກ້ບັນຊີທີ່ຢູ່ໃນເກມແຕ່ຂຶ້ນ \"ເປີດຢູ່\" ແລ້ວໂດນຣີຈອຍຖິ້ມ: Roblox ບາງໂຕຫຼິ້ນເກມຜ່ານຊ່ອງທາງທີ່ບໍ່ບອກທີ່ຢູ່ເຊີບເວີ ຕອນນີ້ເບິ່ງຈາກປະລິມານຂໍ້ມູນທີ່ແອັບຮັບແທນ",
+     "ຖ້າມືຖືອ່ານປະລິມານຂໍ້ມູນບໍ່ໄດ້ ຈະບໍ່ຣີຈອຍບັນຊີເຫຼົ່ານັ້ນເພາະ \"ບໍ່ເຫັນການເຊື່ອມຕໍ່\" ອີກ ຍັງຈັບໄດ້ຕອນຂຶ້ນໜ້າຕ່າງຫຼຸດ ຫຼື ແອັບປິດ"
+    ],
+    "my": [
+     "ဂိမ်းထဲရှိနေသော်လည်း \"ဖွင့်ထားသည်\" ဟုပြပြီး rejoin ခံရသော အကောင့်များကို ပြင်သည်: Roblox အချို့သည် server လိပ်စာ မပြသော လမ်းကြောင်းဖြင့် ကစားသဖြင့် app လက်ခံသော ဒေတာပမာဏကို ကြည့်သည်",
+     "ဖုန်းက ထိုကိန်းဂဏန်းကို မပြလျှင် \"ချိတ်ဆက်မှု မမြင်ရ\" ဟူ၍ ထိုအကောင့်များကို rejoin မလုပ်တော့ပါ၊ disconnect window နှင့် app ပိတ်ခြင်းကို ဆက်ဖမ်းနိုင်သည်"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-app-processes",
    "date": "2026-11-24",
@@ -352,47 +386,6 @@
     "my": [
      "အက်ပ်တစ်ခုလုံးရှိ ခလုတ်နှင့် အလေးပေးအရောင်များကို လိုဂိုရှိ TOOLS နှင့် တူညီသော အစိမ်းရောင် အပြည့်ဖြင့် သုံးပြီး gradient မသုံးတော့ပါ",
      "widget ခလုတ်နှင့် web viewer တို့လည်း အရောင်တူ သုံးသည်"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-24-crashlog",
-   "date": "2026-11-24",
-   "notes": {
-    "th": [
-     "เมื่อแอปหรือ BONK Bootstrap เด้งปิด จะบันทึกสาเหตุไว้และแนบไปกับ \"รายงานปัญหา\" ให้เอง",
-     "เปิดแอปครั้งถัดไปหลังเด้ง จะมีปุ่มส่งรายงานให้กดได้ทันที",
-     "หน้าต่าง \"มีอะไรใหม่\" นี้ ดูย้อนหลังได้ที่ ตั้งค่า > เกี่ยวกับ"
-    ],
-    "en": [
-     "When the app or BONK Bootstrap crashes, the cause is saved and attached to \"Report a problem\" automatically",
-     "The next time you open the app after a crash, a button lets you send a report right away",
-     "You can read this \"What's new\" again in Settings > About"
-    ],
-    "zh": [
-     "应用或 BONK Bootstrap 崩溃时，会保存原因并自动附加到“报告问题”中",
-     "崩溃后再次打开应用，会出现按钮可立即发送报告",
-     "可在 设置 > 关于 中再次查看此“新功能”"
-    ],
-    "id": [
-     "Saat aplikasi atau BONK Bootstrap crash, penyebabnya disimpan dan otomatis dilampirkan ke \"Laporkan masalah\"",
-     "Saat membuka aplikasi setelah crash, ada tombol untuk langsung mengirim laporan",
-     "\"Yang baru\" ini bisa dibaca lagi di Pengaturan > Tentang"
-    ],
-    "vi": [
-     "Khi ứng dụng hoặc BONK Bootstrap bị văng, nguyên nhân được lưu và tự đính kèm vào \"Báo lỗi\"",
-     "Lần mở ứng dụng tiếp theo sau khi văng sẽ có nút gửi báo cáo ngay",
-     "Có thể xem lại \"Có gì mới\" ở Cài đặt > Giới thiệu"
-    ],
-    "lo": [
-     "ເມື່ອແອັບ ຫຼື BONK Bootstrap ເດັ້ງປິດ ຈະບັນທຶກສາເຫດໄວ້ ແລະແນບໄປກັບ \"ລາຍງານບັນຫາ\" ໃຫ້ເອງ",
-     "ເປີດແອັບຄັ້ງຖັດໄປຫຼັງເດັ້ງ ຈະມີປຸ່ມສົ່ງລາຍງານໃຫ້ກົດໄດ້ທັນທີ",
-     "ໜ້າຕ່າງ \"ມີຫຍັງໃໝ່\" ນີ້ ເບິ່ງຍ້ອນຫຼັງໄດ້ທີ່ ຕັ້ງຄ່າ > ກ່ຽວກັບ"
-    ],
-    "my": [
-     "အက်ပ် သို့မဟုတ် BONK Bootstrap ပိတ်သွားလျှင် အကြောင်းရင်းကို သိမ်းပြီး \"ပြဿနာ အစီရင်ခံ\" တွင် အလိုအလျောက် ပူးတွဲပေးသည်",
-     "ပိတ်သွားပြီးနောက် အက်ပ်ကို ပြန်ဖွင့်လျှင် အစီရင်ခံစာ ချက်ချင်းပို့ရန် ခလုတ် ပေါ်လာမည်",
-     "ဤ \"အသစ်များ\" ကို ဆက်တင် > အကြောင်း တွင် ပြန်ကြည့်နိုင်သည်"
     ]
    }
   }
