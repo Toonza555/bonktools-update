@@ -1,12 +1,46 @@
 {
  "schema": 1,
- "versionCode": 72,
- "versionName": "1.0.72",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-72/BONKTOOLS.apk",
- "sha256": "c0e777c439f5abeb152dae80897252b85ae4bb9de8e1f8ddea022fa110b08fe2",
- "size": 25427532,
- "published": "2026-11-24T10:09:15Z",
+ "versionCode": 74,
+ "versionName": "1.0.74",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-74/BONKTOOLS.apk",
+ "sha256": "fe756a49aa6a2ddb5e381015c424aefd59282c11756a1ded4bba69543964d934",
+ "size": 25465980,
+ "published": "2026-11-24T10:53:54Z",
  "changelog": [
+  {
+   "id": "2026-11-24-cookie-login",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "เพิ่มเมนู \"คุกกี้ล็อกอิน\" (Tools > บัญชี): ดึงคุกกี้ของบัญชีที่ล็อกอินอยู่ไปเก็บหรือย้ายเครื่อง และวางคุกกี้เพื่อล็อกอินแทนการพิมพ์รหัสทีละตัว ต้องใช้ Root",
+     "คุกกี้ที่เก็บถูกเข้ารหัสในเครื่อง และกันออกจากรายงาน/การส่งออกทั้งหมด"
+    ],
+    "en": [
+     "New \"Cookie login\" tool (Tools > Accounts): pull a logged-in account's cookie to keep or move to another device, and paste a cookie to log in instead of typing each password. Needs Root",
+     "Saved cookies are encrypted on the phone and kept out of every report and export"
+    ],
+    "zh": [
+     "新增“Cookie 登录”工具（工具 > 账户）：提取已登录账号的 Cookie 以保存或换机，粘贴 Cookie 即可登录，免去逐个输入密码。需要 Root",
+     "保存的 Cookie 在本机加密，并排除在所有报告/导出之外"
+    ],
+    "id": [
+     "Alat baru \"Login cookie\" (Tools > Akun): ambil cookie akun yang sedang login untuk disimpan atau pindah perangkat, dan tempel cookie untuk login tanpa mengetik setiap sandi. Perlu Root",
+     "Cookie tersimpan dienkripsi di ponsel dan dikecualikan dari semua laporan/ekspor"
+    ],
+    "vi": [
+     "Công cụ mới \"Đăng nhập bằng cookie\" (Tools > Tài khoản): lấy cookie của tài khoản đang đăng nhập để lưu hoặc chuyển máy, và dán cookie để đăng nhập thay vì gõ từng mật khẩu. Cần Root",
+     "Cookie đã lưu được mã hóa trên máy và loại khỏi mọi báo cáo/xuất"
+    ],
+    "lo": [
+     "ເພີ່ມເຄື່ອງມື \"ເຂົ້າສູ່ລະບົບດ້ວຍຄຸກກີ້\" (Tools > ບັນຊີ): ດຶງຄຸກກີ້ຂອງບັນຊີທີ່ເຂົ້າສູ່ລະບົບຢູ່ໄປເກັບ ຫຼື ຍ້າຍເຄື່ອງ ແລະ ວາງຄຸກກີ້ເພື່ອເຂົ້າສູ່ລະບົບແທນການພິມລະຫັດເທື່ອລະໂຕ ຕ້ອງໃຊ້ Root",
+     "ຄຸກກີ້ທີ່ເກັບຖືກເຂົ້າລະຫັດໃນເຄື່ອງ ແລະ ຖືກກັນອອກຈາກລາຍງານ/ການສົ່ງອອກທັງໝົດ"
+    ],
+    "my": [
+     "\"Cookie login\" ကိရိယာ အသစ် (Tools > Accounts): login ဝင်ထားသော အကောင့်၏ cookie ကို သိမ်း/စက်ပြောင်းရန် ဆွဲထုတ်ပါ၊ စကားဝှက် တစ်ခုချင်းမရိုက်ဘဲ login ဝင်ရန် cookie ကို ကူးထည့်ပါ။ Root လိုအပ်သည်",
+     "သိမ်းထားသော cookie များကို ဖုန်းတွင် စာဝှက်ထားပြီး အစီရင်ခံစာ/ထုတ်ယူမှု အားလုံးမှ ချန်ထားသည်"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-float-bottom",
    "date": "2026-11-24",
@@ -338,33 +372,6 @@
     "my": [
      "Update နှိပ်လျှင် နာရီများစွာ အရင်က တွေ့ခဲ့သော ဗားရှင်းမဟုတ်ဘဲ နောက်ဆုံးဗားရှင်းကို အမြဲရမည်၊ app ဖွင့်လျှင် ၁၅ မိနစ်ကြာပြီးနောက် ပြန်စစ်မည်",
      "အပ်ဒိတ် window သည် ထိုအချိန် ချိတ်ထားသော ခွင့်ပြုချက်အလိုက် ထည့်သွင်းပုံကို မှန်ကန်စွာ ပြသည်"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-24-softer-buttons",
-   "date": "2026-11-24",
-   "notes": {
-    "th": [
-     "ปุ่มหลัก สวิตช์ และช่องติ๊กใช้สีที่อ่อนลง ไม่แสบตา สีเขียวสดยังใช้กับตัวอักษรและจุดสถานะเหมือนเดิม"
-    ],
-    "en": [
-     "Main buttons, switches and checkboxes use a softer shade that's easier on the eyes; the bright green stays for text and status dots"
-    ],
-    "zh": [
-     "主按钮、开关和复选框改用更柔和的颜色，不再刺眼；鲜绿色仍用于文字和状态点"
-    ],
-    "id": [
-     "Tombol utama, sakelar, dan kotak centang memakai warna yang lebih lembut agar tidak menyilaukan; hijau terang tetap untuk teks dan titik status"
-    ],
-    "vi": [
-     "Nút chính, công tắc và ô chọn dùng màu dịu hơn, không chói mắt; màu xanh tươi vẫn dùng cho chữ và chấm trạng thái"
-    ],
-    "lo": [
-     "ປຸ່ມຫຼັກ ສະວິດ ແລະ ຊ່ອງຕິກໃຊ້ສີທີ່ອ່ອນລົງ ບໍ່ແສບຕາ ສີຂຽວສົດຍັງໃຊ້ກັບຕົວອັກສອນ ແລະ ຈຸດສະຖານະຄືເດີມ"
-    ],
-    "my": [
-     "အဓိကခလုတ်၊ switch နှင့် checkbox များတွင် မျက်စိမကျိန်းစေသော ပျော့ပျောင်းသည့်အရောင် သုံးသည်၊ အစိမ်းတောက်ကို စာသားနှင့် အခြေအနေအစက်တွင် ဆက်သုံးသည်"
     ]
    }
   }
