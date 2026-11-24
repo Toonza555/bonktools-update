@@ -1,12 +1,53 @@
 {
  "schema": 1,
- "versionCode": 64,
- "versionName": "1.0.64",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-64/BONKTOOLS.apk",
- "sha256": "5292acf8037afd036a45b01a10c53cade67144cf47048ee60fe208cbe5dc8c6f",
- "size": 25402848,
- "published": "2026-11-24T06:12:47Z",
+ "versionCode": 66,
+ "versionName": "1.0.66",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-66/BONKTOOLS.apk",
+ "sha256": "2c40ffa214009d0ffe3b552a145a6473fc39dabb7d0635ce962d1ab5c9cccde2",
+ "size": 25404216,
+ "published": "2026-11-24T06:54:09Z",
  "changelog": [
+  {
+   "id": "2026-11-24-float-bottom",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "หน้าต่างลอยลากลงครึ่งล่างของจอได้แล้ว (เดิมแอปอ่านขนาดจอผิดเป็นแนวนอน เลยติดอยู่ครึ่งบน)",
+     "ตรวจว่าอยู่ในเกมมีตัวช่วยที่สอง: ถ้าไม่เห็นการเชื่อมต่อเซิร์ฟเวอร์เกม แต่แอปยังรับข้อมูลต่อเนื่องแบบที่มีแค่ตอนอยู่ในเกม จะนับว่าอยู่ในเกม ไม่รีจอยน์ทิ้ง",
+     "\"ดูสิ่งที่ระบบตรวจเจอ\" บอกปริมาณข้อมูลเข้าออกของแต่ละบัญชีด้วย"
+    ],
+    "en": [
+     "Floating windows can be dragged into the bottom half of the screen (the app read the screen size as sideways, which kept them in the top half)",
+     "A second opinion for in game: if no game-server socket is visible but the app keeps receiving data the way only a running game does, it counts as in game instead of being rejoined",
+     "\"See what the checks see\" also shows each account's data in and out"
+    ],
+    "zh": [
+     "悬浮窗现在可以拖到屏幕下半部分（之前应用把屏幕尺寸读成横向，只能停在上半部分）",
+     "游戏内检测增加第二依据：看不到游戏服务器连接、但应用持续接收只有在游戏中才会有的数据时，视为在游戏中，不会被重连",
+     "“查看检测到的内容”也会显示每个账号的数据收发量"
+    ],
+    "id": [
+     "Jendela mengambang kini bisa diseret ke setengah bawah layar (sebelumnya ukuran layar terbaca miring sehingga tertahan di setengah atas)",
+     "Pendapat kedua untuk status dalam game: jika koneksi server game tidak terlihat tetapi aplikasi terus menerima data seperti saat bermain, dihitung dalam game dan tidak di-rejoin",
+     "\"Lihat yang terlihat oleh pengecekan\" juga menampilkan data masuk dan keluar tiap akun"
+    ],
+    "vi": [
+     "Cửa sổ nổi kéo xuống nửa dưới màn hình được rồi (trước đây kích thước màn hình bị đọc thành nằm ngang nên kẹt ở nửa trên)",
+     "Thêm ý kiến thứ hai cho trạng thái trong game: nếu không thấy kết nối máy chủ game nhưng ứng dụng vẫn nhận dữ liệu liên tục như khi đang chơi, sẽ tính là trong game thay vì vào lại",
+     "\"Xem những gì hệ thống thấy\" còn hiện lượng dữ liệu vào ra của từng tài khoản"
+    ],
+    "lo": [
+     "ໜ້າຕ່າງລອຍລາກລົງເຄິ່ງລຸ່ມຂອງຈໍໄດ້ແລ້ວ (ເດີມແອັບອ່ານຂະໜາດຈໍຜິດເປັນແນວນອນ ເລີຍຕິດຢູ່ເຄິ່ງເທິງ)",
+     "ກວດວ່າຢູ່ໃນເກມມີໂຕຊ່ວຍທີສອງ: ຖ້າບໍ່ເຫັນການເຊື່ອມຕໍ່ເຊີບເວີເກມ ແຕ່ແອັບຍັງຮັບຂໍ້ມູນຕໍ່ເນື່ອງແບບທີ່ມີແຕ່ຕອນຢູ່ໃນເກມ ຈະນັບວ່າຢູ່ໃນເກມ ບໍ່ຣີຈອຍຖິ້ມ",
+     "\"ເບິ່ງສິ່ງທີ່ລະບົບກວດເຫັນ\" ບອກປະລິມານຂໍ້ມູນເຂົ້າອອກຂອງແຕ່ລະບັນຊີດ້ວຍ"
+    ],
+    "my": [
+     "floating window ကို မျက်နှာပြင် အောက်တစ်ဝက်သို့ ဆွဲချနိုင်ပြီ (အရင်က မျက်နှာပြင်အရွယ်ကို အလျားလိုက်ဟု မှားဖတ်ခဲ့သဖြင့် အပေါ်တစ်ဝက်တွင်သာ ရှိနေခဲ့သည်)",
+     "ဂိမ်းထဲရှိမရှိ စစ်ရာတွင် ဒုတိယအထောက်အထား: game server ချိတ်ဆက်မှု မမြင်ရသော်လည်း ဂိမ်းကစားနေမှသာရှိသော ဒေတာကို ဆက်တိုက်လက်ခံနေလျှင် ဂိမ်းထဲရှိသည်ဟု ယူဆပြီး rejoin မလုပ်ပါ",
+     "\"စစ်ဆေးမှုက မြင်ရသည်ကို ကြည့်မည်\" တွင် အကောင့်တစ်ခုချင်း ဒေတာ အဝင်အထွက်ကိုလည်း ပြသည်"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-ingame-check",
    "date": "2026-11-24",
@@ -380,54 +421,6 @@
      "တက်ဘလက်နှင့် အလျားလိုက် မျက်နှာပြင် - တက်ဘ်များ ဘယ်ဘက်သို့ ရွှေ့သည်",
      "နှိပ်လျှင် အနည်းငယ်တုန်ပြီး အကောင့် ဂိမ်းထဲပြန်ဝင်လျှင် အတည်ပြုတုန်ခါမှု",
      "စာရင်းအင်းတွင် နေ့စဉ် ဂိမ်းထဲအချိန် ဂရပ် ပါသည်"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-23-floating",
-   "date": "2026-11-23",
-   "notes": {
-    "th": [
-     "หน้าต่างลอยของ BONKTOOLS เปิดเครื่องคลาวด์ได้กี่บานก็ได้ตามแรม ลาก ปรับขนาด ย่อ จัดเรียงได้",
-     "หน้าต่างลอยพิมพ์ข้อความ ปิดเสียง และตั้ง FPS แยกบานได้ รีจอยแล้วอยู่ที่เดิม",
-     "ตั้งค่าครั้งแรกแบบทีละขั้น ขอแจ้งเตือนก่อน",
-     "สแกนแอปมีแถบความคืบหน้า บอกว่ากำลังดูอะไร"
-    ],
-    "en": [
-     "BONKTOOLS floating windows: open as many cloud machines as your RAM allows; drag, resize, minimise, arrange",
-     "Type, mute and set FPS per window; windows stay put after a rejoin",
-     "Step-by-step first setup, notifications first",
-     "App scan shows a progress bar and what it's checking"
-    ],
-    "zh": [
-     "BONKTOOLS 悬浮窗：按内存打开任意数量的云机器，可拖动、调整大小、最小化、排列",
-     "每个窗口可输入文字、静音、单独设置 FPS，重连后位置不变",
-     "分步首次设置，先请求通知权限",
-     "扫描应用时显示进度条和正在检查的内容"
-    ],
-    "id": [
-     "Jendela mengambang BONKTOOLS: buka mesin cloud sebanyak yang RAM sanggup; seret, ubah ukuran, kecilkan, atur",
-     "Ketik, bisukan, dan atur FPS per jendela; jendela tetap di tempat setelah rejoin",
-     "Pengaturan awal langkah demi langkah, notifikasi lebih dulu",
-     "Pemindaian aplikasi menampilkan bilah progres dan yang sedang diperiksa"
-    ],
-    "vi": [
-     "Cửa sổ nổi của BONKTOOLS: mở bao nhiêu máy đám mây tùy RAM; kéo, đổi cỡ, thu nhỏ, sắp xếp",
-     "Gõ chữ, tắt tiếng và chỉnh FPS từng cửa sổ; cửa sổ giữ nguyên chỗ sau khi rejoin",
-     "Thiết lập lần đầu từng bước, xin thông báo trước",
-     "Quét ứng dụng có thanh tiến trình và cho biết đang kiểm tra gì"
-    ],
-    "lo": [
-     "ໜ້າຕ່າງລອຍຂອງ BONKTOOLS ເປີດເຄື່ອງຄລາວໄດ້ຈັກບານກໍໄດ້ຕາມແຣມ ລາກ ປັບຂະໜາດ ຫຍໍ້ ຈັດລຽງໄດ້",
-     "ພິມຂໍ້ຄວາມ ປິດສຽງ ແລະຕັ້ງ FPS ແຍກບານໄດ້ ຣີຈອຍແລ້ວຢູ່ບ່ອນເດີມ",
-     "ຕັ້ງຄ່າຄັ້ງທຳອິດແບບເທື່ອລະຂັ້ນ ຂໍແຈ້ງເຕືອນກ່ອນ",
-     "ສະແກນແອັບມີແຖບຄວາມຄືບໜ້າ ບອກວ່າກຳລັງເບິ່ງຫຍັງ"
-    ],
-    "my": [
-     "BONKTOOLS floating window - RAM ခွင့်ပြုသလောက် cloud စက်များ ဖွင့်နိုင်ပြီး ဆွဲ၊ အရွယ်ပြောင်း၊ ချုံ့၊ စီစဉ်နိုင်သည်",
-     "window တစ်ခုချင်း စာရိုက်၊ အသံပိတ်၊ FPS သတ်မှတ်နိုင်ပြီး rejoin ပြီးလည်း နေရာမပြောင်း",
-     "ပထမဆုံး သတ်မှတ်ခြင်းကို အဆင့်လိုက်၊ အသိပေးချက်ကို အရင်တောင်းသည်",
-     "အက်ပ်စကင်န်တွင် တိုးတက်မှုဘားနှင့် ဘာစစ်နေသည်ကို ပြသည်"
     ]
    }
   }
