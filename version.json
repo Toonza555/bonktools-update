@@ -1,12 +1,46 @@
 {
  "schema": 1,
- "versionCode": 70,
- "versionName": "1.0.70",
- "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-70/BONKTOOLS.apk",
- "sha256": "0c9ec8966d178f41bfc61a0db79326945bc62077cff8205bb8338a7b40c6400d",
- "size": 25408288,
- "published": "2026-11-24T07:58:55Z",
+ "versionCode": 71,
+ "versionName": "1.0.71",
+ "url": "https://github.com/Toonza555/bonktools-update/releases/download/build-71/BONKTOOLS.apk",
+ "sha256": "70e2de060b7e1fb24769f29f3ae8fb5b43cfd45c79ffe93440653be920d854d6",
+ "size": 25409328,
+ "published": "2026-11-24T09:41:37Z",
  "changelog": [
+  {
+   "id": "2026-11-24-play-traffic",
+   "date": "2026-11-24",
+   "notes": {
+    "th": [
+     "บัญชีที่ Roblox ไม่บอกที่อยู่เซิร์ฟเวอร์ขึ้น \"ในเกม\" ได้แล้ว: ดูว่าแอปรับและส่งข้อมูลต่อเนื่องแบบที่มีเฉพาะตอนอยู่ในเซิร์ฟเวอร์เกม (วัดจริงในเกม รับ 12-13 KB/s ส่ง 8-9 KB/s นอกเกม 0) ต้องเข้าเกณฑ์ทั้งรับและส่ง 2 รอบติดถึงจะนับ และต้องอยู่บนจอของเครื่องตัวเอง",
+     "\"ดูสิ่งที่ระบบตรวจเจอ\" บอกผลที่ระบบตรวจสรุปเอง และรายชื่อส่วนการทำงานของ Roblox ครบทุกตัว"
+    ],
+    "en": [
+     "Accounts whose Roblox doesn't name the server now show \"In game\": the app has to keep both receiving and sending data the way only a game session does (measured in game: 12-13 KB/s in, 8-9 KB/s out; out of game: 0). Both directions, two checks in a row, and on its own machine's screen",
+     "\"See what the checks see\" shows the watchdog's own verdict and every Roblox thread name"
+    ],
+    "zh": [
+     "不显示服务器地址的 Roblox 账号现在能显示“游戏中”：应用需要像游戏会话那样持续收发数据（实测游戏中收 12-13 KB/s、发 8-9 KB/s，游戏外为 0），收发都达标、连续两次，并且在自己机器的屏幕上才算",
+     "“查看检测到的内容”会显示监控自己的判断以及 Roblox 的全部线程名"
+    ],
+    "id": [
+     "Akun yang Roblox-nya tidak menyebut server kini tampil \"Dalam game\": aplikasi harus terus menerima dan mengirim data seperti sesi game (terukur di game: masuk 12-13 KB/s, keluar 8-9 KB/s; di luar game: 0). Kedua arah, dua kali berturut-turut, dan di layar mesinnya sendiri",
+     "\"Lihat yang terlihat oleh pengecekan\" menampilkan kesimpulan pemantau sendiri dan semua nama thread Roblox"
+    ],
+    "vi": [
+     "Tài khoản có Roblox không cho biết máy chủ giờ hiện \"Trong game\": ứng dụng phải liên tục nhận và gửi dữ liệu như phiên chơi game (đo trong game: nhận 12-13 KB/s, gửi 8-9 KB/s; ngoài game: 0). Cả hai chiều, hai lần liên tiếp và ở trên màn hình máy của chính nó",
+     "\"Xem những gì hệ thống thấy\" hiện kết luận của trình theo dõi và tên mọi luồng của Roblox"
+    ],
+    "lo": [
+     "ບັນຊີທີ່ Roblox ບໍ່ບອກທີ່ຢູ່ເຊີບເວີຂຶ້ນ \"ໃນເກມ\" ໄດ້ແລ້ວ: ເບິ່ງວ່າແອັບຮັບ ແລະ ສົ່ງຂໍ້ມູນຕໍ່ເນື່ອງແບບທີ່ມີສະເພາະຕອນຢູ່ໃນເຊີບເວີເກມ (ວັດແທ້ໃນເກມ ຮັບ 12-13 KB/s ສົ່ງ 8-9 KB/s ນອກເກມ 0) ຕ້ອງເຂົ້າເກນທັງຮັບ ແລະ ສົ່ງ 2 ຮອບຕິດ ແລະ ຕ້ອງຢູ່ເທິງຈໍຂອງເຄື່ອງໂຕເອງ",
+     "\"ເບິ່ງສິ່ງທີ່ລະບົບກວດເຫັນ\" ບອກຜົນທີ່ລະບົບກວດສະຫຼຸບເອງ ແລະ ລາຍຊື່ສ່ວນການເຮັດວຽກຂອງ Roblox ຄົບທຸກໂຕ"
+    ],
+    "my": [
+     "server မပြသော Roblox အကောင့်များ \"ဂိမ်းထဲ\" ဟု ပြနိုင်ပြီ: ဂိမ်း session ကဲ့သို့ ဒေတာကို ဆက်တိုက် လက်ခံ၊ ပို့နေရမည် (ဂိမ်းထဲ တိုင်းတာချက် အဝင် 12-13 KB/s အထွက် 8-9 KB/s၊ ဂိမ်းပြင်ပ 0)၊ နှစ်ဘက်စလုံး၊ နှစ်ကြိမ်ဆက်တိုက်နှင့် ကိုယ့်စက်၏ မျက်နှာပြင်ပေါ်တွင် ရှိရမည်",
+     "\"စစ်ဆေးမှုက မြင်ရသည်ကို ကြည့်မည်\" တွင် စောင့်ကြည့်သူ၏ ကိုယ်ပိုင်ဆုံးဖြတ်ချက်နှင့် Roblox thread အမည်အားလုံးကို ပြသည်"
+    ]
+   }
+  },
   {
    "id": "2026-11-24-on-screen",
    "date": "2026-11-24",
@@ -317,47 +351,6 @@
     ],
     "my": [
      "app ထဲမှ အပ်ဒိတ်စနစ်ကို စမ်းသပ်ခြင်း၊ ဤဗားရှင်းတွင် အခြားပြောင်းလဲမှု မရှိပါ"
-    ]
-   }
-  },
-  {
-   "id": "2026-11-24-updater",
-   "date": "2026-11-24",
-   "notes": {
-    "th": [
-     "อัปเดตในแอป: แจ้งเมื่อมีเวอร์ชันใหม่ บอกว่าเปลี่ยนอะไร กดปุ่มเดียวดาวน์โหลดและติดตั้งให้ (ผ่าน Shizuku, Root หรือ ADB ไม่ต้องกดยืนยัน)",
-     "ตรวจไฟล์ก่อนติดตั้งทุกครั้ง: ขนาด, SHA-256 และลายเซ็นต้องตรงกับแอปที่ใช้อยู่",
-     "หลังอัปเดตระบบตรวจจะกลับมาทำงานต่อเอง ปิดการเช็กอัตโนมัติได้ที่ ตั้งค่า > เกี่ยวกับ"
-    ],
-    "en": [
-     "In-app updates: tells you when a new version is out and what changed; one button downloads and installs it (through Shizuku, root or ADB, no confirmation needed)",
-     "Every download is checked before installing: size, SHA-256 and the same signature as the installed app",
-     "The watchdog picks up again after an update. Automatic checks can be turned off in Settings > About"
-    ],
-    "zh": [
-     "应用内更新：有新版本时提醒并说明改动，一键下载并安装（通过 Shizuku、Root 或 ADB，无需确认）",
-     "每次安装前都会校验文件：大小、SHA-256 以及与已安装应用相同的签名",
-     "更新后监控会自动继续。可在 设置 > 关于 中关闭自动检查"
-    ],
-    "id": [
-     "Pembaruan dalam aplikasi: memberi tahu saat ada versi baru dan apa yang berubah; satu tombol untuk mengunduh dan memasang (lewat Shizuku, root, atau ADB, tanpa konfirmasi)",
-     "Setiap unduhan diperiksa sebelum dipasang: ukuran, SHA-256, dan tanda tangan yang sama dengan aplikasi terpasang",
-     "Pemantauan lanjut sendiri setelah pembaruan. Cek otomatis bisa dimatikan di Pengaturan > Tentang"
-    ],
-    "vi": [
-     "Cập nhật trong ứng dụng: báo khi có phiên bản mới và thay đổi gì; một nút để tải và cài (qua Shizuku, root hoặc ADB, không cần xác nhận)",
-     "Mỗi file tải về đều được kiểm tra trước khi cài: kích thước, SHA-256 và chữ ký giống ứng dụng đang cài",
-     "Sau khi cập nhật, việc theo dõi tự chạy tiếp. Có thể tắt tự kiểm tra ở Cài đặt > Giới thiệu"
-    ],
-    "lo": [
-     "ອັບເດດໃນແອັບ: ແຈ້ງເມື່ອມີເວີຊັນໃໝ່ ບອກວ່າປ່ຽນຫຍັງ ກົດປຸ່ມດຽວດາວໂຫຼດ ແລະ ຕິດຕັ້ງໃຫ້ (ຜ່ານ Shizuku, Root ຫຼື ADB ບໍ່ຕ້ອງກົດຢືນຢັນ)",
-     "ກວດໄຟລ໌ກ່ອນຕິດຕັ້ງທຸກຄັ້ງ: ຂະໜາດ, SHA-256 ແລະ ລາຍເຊັນຕ້ອງກົງກັບແອັບທີ່ໃຊ້ຢູ່",
-     "ຫຼັງອັບເດດ ລະບົບກວດຈະກັບມາເຮັດວຽກຕໍ່ເອງ ປິດການກວດອັດຕະໂນມັດໄດ້ທີ່ ຕັ້ງຄ່າ > ກ່ຽວກັບ"
-    ],
-    "my": [
-     "app ထဲမှ အပ်ဒိတ်: ဗားရှင်းအသစ်ထွက်လျှင် ဘာပြောင်းလဲလဲ ပြောပြပြီး ခလုတ်တစ်ချက်ဖြင့် ဒေါင်းလုဒ်နှင့် ထည့်သွင်းပေးသည် (Shizuku၊ root သို့မဟုတ် ADB ဖြင့် အတည်ပြုရန်မလို)",
-     "ထည့်သွင်းမီ ဖိုင်ကို အမြဲစစ်သည်: အရွယ်အစား၊ SHA-256 နှင့် ထည့်ထားသော app နှင့် တူညီသော လက်မှတ်",
-     "အပ်ဒိတ်ပြီးနောက် စောင့်ကြည့်မှု ဆက်လုပ်မည်။ အလိုအလျောက်စစ်ခြင်းကို Settings > About တွင် ပိတ်နိုင်သည်"
     ]
    }
   }
